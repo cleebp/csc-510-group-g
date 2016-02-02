@@ -1,1 +1,3 @@
-The folder that contains the PDF for the Feb1 deliverable.
+#Feb1 Deliverable
+
+This folder contains the pdf and corresponding latex files for Group G’s Feb1 deliverable.
