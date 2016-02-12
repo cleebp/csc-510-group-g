@@ -1,0 +1,20 @@
+'.platform-darwin, .platform-darwin .atom-workspace':
+  'cmd-c':          'textmate-clipboard:copy'
+  'cmd-x':          'textmate-clipboard:cut'
+  'cmd-shift-v':    'textmate-clipboard:pastePrevious'
+  'cmd-alt-v':      'textmate-clipboard:pasteNext'
+  'cmd-ctrl-alt-v': 'textmate-clipboard:show'
+
+'.platform-win32, .platform-win32 .atom-workspace':
+  'ctrl-c':         'textmate-clipboard:copy'
+  'ctrl-x':         'textmate-clipboard:cut'
+  'ctrl-shift-v':   'textmate-clipboard:pastePrevious'
+  'cmd-alt-v':      'textmate-clipboard:pasteNext'
+  'cmd-ctrl-alt-v': 'textmate-clipboard:show'
+
+'.platform-linux, .platform-linux .atom-workspace':
+  'ctrl-c':         'textmate-clipboard:copy'
+  'ctrl-x':         'textmate-clipboard:cut'
+  'ctrl-shift-v':   'textmate-clipboard:pastePrevious'
+  'ctrl-alt-v':     'textmate-clipboard:pasteNext'
+  'cmd-ctrl-alt-v': 'textmate-clipboard:show'

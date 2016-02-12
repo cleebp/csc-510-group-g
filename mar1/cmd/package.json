@@ -1,0 +1,25 @@
+{
+  "name": "clipit-cmd",
+  "author": {
+    "name": "Brian Clee, Effat Farhana, Arjun Madan, and Ran Tan",
+    "url": "https://github.com/cleebp/csc-510-group-g"
+  },
+  "main": "./lib/clipboard-history",
+  "version": "0.6.6",
+  "description": "Keep a history of your clipboard items. Let you paste them back in, as needed.",
+  "activationCommands": {
+    "atom-workspace": [
+      "clipboard-history:copy",
+      "clipboard-history:paste"
+    ]
+  },
+  "repository": "https://github.com/cleebp/csc-510-group-g",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0",
+    "jquery": "^2"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3"
+  }
+}

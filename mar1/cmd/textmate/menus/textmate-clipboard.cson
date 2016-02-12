@@ -1,0 +1,50 @@
+'context-menu':
+  '.atom-workspace': [
+    {
+      'label': 'Separator',
+      'command': '-'
+    },
+    {
+      'label': 'Copy',
+      'command': 'textmate-clipboard:copy'
+    },
+    {
+      'label': 'Cut',
+      'command': 'textmate-clipboard:cut'
+    },
+    {
+      'label': 'Paste',
+      'command': 'core:paste'
+    },
+    {
+      'label': 'Paste Previous',
+      'command': 'textmate-clipboard:pastePrevious'
+    },
+    {
+      'label': 'Paste Next',
+      'command': 'textmate-clipboard:pasteNext'
+    },
+    {
+      'label': 'Show History',
+      'command': 'textmate-clipboard:show'
+    },
+    {
+      'label': 'Separator',
+      'command': '-'
+    }
+  ]
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Clipboard History'
+      'submenu': [
+        { 'label': 'Copy', 'command': 'textmate-clipboard:copy' }
+        { 'label': 'Cut', 'command': 'textmate-clipboard:cut' }
+        { 'label': 'Paste', 'command': 'textmate-clipboard:paste' }
+        { 'label': 'Show History', 'command': 'textmate-clipboard:show' }
+      ]
+    ]
+  }
+]
