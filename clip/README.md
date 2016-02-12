@@ -8,5 +8,4 @@ It gets updated regularly, check out the [changelog](https://github.com/unDemian
 
 ## Usage
 
-- `Cmd-Shift-V` on MacOS
-- `Ctrl-Shift-V` on Windows + Linux
+Start working on this project
