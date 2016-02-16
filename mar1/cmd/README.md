@@ -1,1 +1,1 @@
-#cmd line feature
+#Clipit-cmd

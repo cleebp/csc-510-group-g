@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle clipit-cmd'
+      'command': 'clipit-cmd:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'clipit-cmd'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'clipit-cmd:toggle'
+        }
+      ]
+    ]
+  }
+]
