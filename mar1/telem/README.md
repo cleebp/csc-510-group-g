@@ -1,10 +1,10 @@
-# clipboard-history package
+# clipboard-history
 
-Keep a history of your clipboard items. Let you paste them back in, as needed.
+##Telemetry
+- Logs copy and paste events inside Atom to a log file along with the current Date and Time.
+- Also logs the content copied/pasted.
+- To be integrated with all solutions in order to compare their performances.
 
-It gets updated regularly, check out the [changelog](https://github.com/unDemian/clipboard-history/blob/master/CHANGELOG.md).
-
-![A screenshot of your spankin' package](https://raw.githubusercontent.com/unDemian/clipboard-history/master/demo.gif)
 
 ## Usage
 
