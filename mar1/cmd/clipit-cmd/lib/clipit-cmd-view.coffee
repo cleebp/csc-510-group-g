@@ -2,7 +2,7 @@
 
 module.exports =
 
-class ClipitCmd extends SelectListView
+class ClipitCmdView extends SelectListView
 
   editor: null
   forceClear: false
@@ -96,7 +96,7 @@ class ClipitCmd extends SelectListView
     # Show preview
     @list.find('.preview').addClass('hidden')
     preview = view.find '.preview'
-    if preview.length isnt 0 and preview.text().length > 65 and atom.config.get 'clipboard-history.showSnippetForLargeItems'
+    if preview.length isnt 0 and preview.text().length > 65 and atom.config.get 'clipit-cmd.showSnippetForLargeItems'
       if view.position().top isnt 0
         preview.css({ 'top': (view.position().top - 5) + 'px'})
       preview.removeClass 'hidden'

@@ -1,19 +1,19 @@
-{CompositeDisposable} = require 'atom'
+{ CompositeDisposable } = require 'atom'
 ClipitCmdView = require './clipit-cmd-view'
 
 module.exports =
 
-config:
-  showSnippetForLargeItems:
-    type: 'boolean'
-    default: true
-    title: 'Show Snippet'
-    description: 'When a long clipboard item, preview it a separate tooltip'
-  showClearHistoryButton:
-    type: 'boolean'
-    default: true
-    title: 'Show Clear History'
-    description: 'Display a button to clear your clipboard\'s history'
+  config:
+    showSnippetForLargeItems:
+      type: 'boolean'
+      default: true
+      title: 'Show Snippet'
+      description: 'When a long clipboard item, preview it a separate tooltip'
+    showClearHistoryButton:
+      type: 'boolean'
+      default: true
+      title: 'Show Clear History'
+      description: 'Display a button to clear your clipboard\'s history'
 
   history: []
   clipboard: null
@@ -25,8 +25,8 @@ config:
     console.log 'clipit-cmd was activated'
 
   deactivate: ->
-    console.log 'clipit-cmd was deactivated'
     @subscriptions.dispose()
+    console.log 'clipit-cmd was deactivated'
 
   serialize: ->
-    clipitCmdViewState: @clipitCmdView.serialize()
+    #clipitCmdViewState: @clipitCmdView.serialize()

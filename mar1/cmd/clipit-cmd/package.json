@@ -1,11 +1,7 @@
 {
   "name": "clipit-cmd",
-  "author": {
-    "name": "Brian Clee, Effat Farhana, Arjun Madan, and Ran Tan",
-    "url": "https://github.com/cleebp/csc-510-group-g"
-  },
   "main": "./lib/clipit-cmd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Clipit variation with command integrations for navigation.",
   "keywords": [
   ],
@@ -19,10 +15,9 @@
       "clipit-cmd:show"
     ]
   },
-  "repository": "https://github.com/cleebp/csc-510-group-g",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.0.0"
   },
   "dependencies": {
     "atom-space-pen-views": "^2.0.3"
