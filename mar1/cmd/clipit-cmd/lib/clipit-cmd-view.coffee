@@ -37,14 +37,14 @@ class ClipitCmdView extends SelectListView
   #pasteNext: ->
   indexNext: ->
     #@_addIfNonExistent atom.clipboard.read()
-    console.log 'cmd-shift-l'
+    console.log 'index next called'
     if (@pasteIndex > 0)
       @pasteIndex--
     #@paste()
 
   indexPrevious: ->
     #@_addIfNonExistent atom.clipboard.read()
-    console.log 'cmd-shift-j'
+    console.log 'index previous called'
     if (@pasteIndex < (@history.length - 2)) # the last one is a "clear history button"
       @pasteIndex++
     #@paste()
