@@ -19,6 +19,7 @@ class ClipitCmdView extends SelectListView
   copy: ->
     @storeFocusedElement()
     @editor = atom.workspace.getActiveTextEditor()
+    console.log 'copy called'
 
     if @editor
       selectedText = @editor.getSelectedText()
@@ -27,28 +28,32 @@ class ClipitCmdView extends SelectListView
 
   cut: ->
     @editor = atom.workspace.getActiveTextEditor()
+    console.log 'cut called'
+
     if @editor
       @copy
       @editor.cutSelectedText()
 
   #pasteNext: ->
   indexNext: ->
-    @_addIfNonExistent atom.clipboard.read()
-    #our history is a stack
+    #@_addIfNonExistent atom.clipboard.read()
+    console.log 'cmd-shift-l'
     if (@pasteIndex > 0)
       @pasteIndex--
     #@paste()
 
   indexPrevious: ->
-    @_addIfNonExistent atom.clipboard.read()
+    #@_addIfNonExistent atom.clipboard.read()
+    console.log 'cmd-shift-j'
     if (@pasteIndex < (@history.length - 2)) # the last one is a "clear history button"
       @pasteIndex++
-    @paste()
+    #@paste()
 
   paste: ->
     item = ""
+    console.log 'paste called'
     if @history.length > 0
-       item = @history.slice(0).reverse()[@pasteCursor]
+       item = @history.slice(0).reverse()[@pasteIndex]
        if (item)
         #  atom.clipboard.write(item.text)
          atom.workspace.getActivePaneItem().insertText item.text,
@@ -122,7 +127,7 @@ class ClipitCmdView extends SelectListView
   resetPasteIndex: ->
     # Start the cursor at the second item, not the first. The first is the
     # standard paste behavior's deal.
-    @pasteCursor = 0
+    @pasteIndex = 0
 
   # Helper methods
   ##############################
