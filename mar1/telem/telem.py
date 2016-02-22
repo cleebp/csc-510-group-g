@@ -12,7 +12,6 @@ prev = ""
 
 def get_active_window_title():
 	scpt = applescript.AppleScript('''
-	osascript<<END
 	global frontApp, frontAppName, windowTitle
 	set windowTitle to ""
 	tell application "System Events"
@@ -25,7 +24,6 @@ def get_active_window_title():
 		end tell
 	end tell
 	return {frontAppName, windowTitle}
-	END
 	''')
 
 	window = scpt.run()
