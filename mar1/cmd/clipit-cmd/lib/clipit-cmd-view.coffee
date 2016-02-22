@@ -25,6 +25,7 @@ class ClipitCmdView extends SelectListView
       selectedText = @editor.getSelectedText()
       if selectedText.length > 0
         @_add selectedText
+        @resetPasteIndex()
 
   cut: ->
     @editor = atom.workspace.getActiveTextEditor()

@@ -11,3 +11,7 @@
 ## 0.0.3 - Debugging
 * Working on getting indexNext to work
 * Keybinding override isn't going through, gonna try giving it a new binding
+
+## 0.0.4 - Basic stable version
+* Things work as intended
+* Need to implement copy resetting the paste index
