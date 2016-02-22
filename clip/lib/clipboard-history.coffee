@@ -26,7 +26,8 @@ module.exports =
 
   activate: () ->
     @subscriptions = new CompositeDisposable
-    @clipboard = new ClipboardHistoryView @history, atom.workspace.getActivePaneItem()
+    @clipboard = new ClipboardHistoryView @history,
+      atom.workspace.getActivePaneItem()
 
   deactivate: ->
     @subscriptions.dispose()

@@ -1,27 +1,14 @@
 'context-menu':
   '.atom-workspace': [
     {
-      'label': 'Separator',
-      'command': '-'
-    },
-    {
       'label': 'Copy',
       'command': 'clipboard-history:copy'
     },
     {
-      'label': 'Paste',
-      'command': 'core:paste'
-    },
-    {
       'label': 'Paste History',
       'command': 'clipboard-history:paste'
-    },
-    {
-      'label': 'Separator',
-      'command': '-'
     }
   ]
-
 'menu': [
   {
     'label': 'Packages'
@@ -29,7 +16,7 @@
       'label': 'Clipboard History'
       'submenu': [
         { 'label': 'Copy', 'command': 'clipboard-history:copy' }
-        { 'label': 'Paste', 'command': 'clipboard-history:paste' }
+        { 'label': 'Paste History', 'command': 'clipboard-history:paste' }
       ]
     ]
   }

@@ -8,13 +8,17 @@ module.exports = ClipitOrder =
 
   activate: (state) ->
     @clipitOrderView = new ClipitOrderView(state.clipitOrderViewState)
-    @modalPanel = atom.workspace.addModalPanel(item: @clipitOrderView.getElement(), visible: false)
+    @modalPanel = atom.workspace.addModalPanel(
+                    item: @clipitOrderView.getElement(),
+                    visible: false)
 
-    # Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
+    # Events subscribed to in atom's system can be easily
+    # cleaned up with a CompositeDisposable
     @subscriptions = new CompositeDisposable
 
     # Register command that toggles this view
-    @subscriptions.add atom.commands.add 'atom-workspace', 'clipit-order:toggle': => @toggle()
+    @subscriptions.add atom.commands.add 'atom-workspace',
+      'clipit-order:show': => @toggle()
 
   deactivate: ->
     @modalPanel.destroy()
@@ -25,8 +29,7 @@ module.exports = ClipitOrder =
     clipitOrderViewState: @clipitOrderView.serialize()
 
   toggle: ->
-    console.log 'ClipitOrder was toggled!'
-
+    #console.log 'ClipitOrder was toggled!'
     if @modalPanel.isVisible()
       @modalPanel.hide()
     else

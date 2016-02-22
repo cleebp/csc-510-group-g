@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "clipit-order:toggle"
+    "atom-workspace": "clipit-order:show"
   },
   "repository": "https://github.com/atom/clipit-order",
   "license": "MIT",

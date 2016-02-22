@@ -6,7 +6,8 @@
   },
   "main": "./lib/clipboard-history",
   "version": "0.6.6",
-  "description": "Keep a history of your clipboard items. Let you paste them back in, as needed.",
+  "description": "Keep a history of your clipboard items.
+                  Let you paste them back in, as needed.",
   "activationCommands": {
     "atom-workspace": [
       "clipboard-history:copy",

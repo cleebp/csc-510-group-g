@@ -7,7 +7,7 @@ class ClipitOrderView
 
     # Create message element
     message = document.createElement('div')
-    message.textContent = "The ClipitOrder package is Alive! It's ALIVE!"
+    message.textContent = "The ClipitOrder package is Alive!"
     message.classList.add('message')
     @element.appendChild(message)
 

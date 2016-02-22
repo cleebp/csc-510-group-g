@@ -87,7 +87,9 @@ class ClipboardHistoryView extends SelectListView
     # Show preview
     @list.find('.preview').addClass('hidden')
     preview = view.find '.preview'
-    if preview.length isnt 0 and preview.text().length > 65 and atom.config.get 'clipboard-history.showSnippetForLargeItems'
+    if preview.length isnt 0 and
+      preview.text().length > 65 and
+      atom.config.get 'clipboard-history.showSnippetForLargeItems'
       if view.position().top isnt 0
         preview.css({ 'top': (view.position().top - 5) + 'px'})
       preview.removeClass 'hidden'
@@ -117,7 +119,8 @@ class ClipboardHistoryView extends SelectListView
     atom.clipboard.write element, metadata
     @forceClear = false
 
-    if @history.length is 0 and atom.config.get 'clipboard-history.showClearHistoryButton'
+    if @history.length is 0 and
+      atom.config.get 'clipboard-history.showClearHistoryButton'
       @history.push
         text: 'Clear History',
         clearHistory: true
@@ -140,7 +143,10 @@ class ClipboardHistoryView extends SelectListView
           @paste()
 
   _setPosition: ->
-    @panel.item.parent().css('margin-left': 'auto', 'margin-right': 'auto', top: 200, bottom: 'inherit')
+    @panel.item.parent().css('margin-left': 'auto',
+                            'margin-right': 'auto',
+                            top: 200,
+                            bottom: 'inherit')
 
   _attach: ->
     @panel ?= atom.workspace.addModalPanel(item: this)
