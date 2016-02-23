@@ -1,7 +1,7 @@
 { CompositeDisposable } = require 'atom'
-ClipboardHistoryView = require './clipboard-history-view'
+BaseorderView = require './baseorder-view'
 
-module.exports =
+module.exports = Baseorder =
 
   config:
     showSnippetForLargeItems:
@@ -26,7 +26,7 @@ module.exports =
 
   activate: () ->
     @subscriptions = new CompositeDisposable
-    @clipboard = new ClipboardHistoryView @history,
+    @clipboard = new BaseorderView @history,
       atom.workspace.getActivePaneItem()
 
   deactivate: ->

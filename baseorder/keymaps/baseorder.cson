@@ -1,0 +1,11 @@
+'.platform-darwin, .platform-darwin .atom-workspace':
+  'cmd-c':       'baseorder:copy'
+  'cmd-shift-v': 'baseorder:paste'
+
+'.platform-win32, .platform-win32 .atom-workspace':
+  'ctrl-c':       'baseorder:copy'
+  'ctrl-shift-v': 'baseorder:paste'
+
+'.platform-linux, .platform-linux .atom-workspace':
+  'ctrl-c':       'baseorder:copy'
+  'ctrl-shift-v': 'baseorder:paste'

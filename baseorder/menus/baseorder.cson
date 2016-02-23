@@ -2,11 +2,11 @@
   '.atom-workspace': [
     {
       'label': 'Copy',
-      'command': 'clipboard-history:copy'
+      'command': 'baseorder:copy'
     },
     {
       'label': 'Paste History',
-      'command': 'clipboard-history:paste'
+      'command': 'baseorder:paste'
     }
   ]
 'menu': [
@@ -15,8 +15,8 @@
     'submenu': [
       'label': 'Clipboard History'
       'submenu': [
-        { 'label': 'Copy', 'command': 'clipboard-history:copy' }
-        { 'label': 'Paste History', 'command': 'clipboard-history:paste' }
+        { 'label': 'Copy', 'command': 'baseorder:copy' }
+        { 'label': 'Paste History', 'command': 'baseorder:paste' }
       ]
     ]
   }

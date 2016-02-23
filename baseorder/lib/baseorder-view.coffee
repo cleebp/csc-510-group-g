@@ -2,7 +2,7 @@
 
 module.exports =
 
-class ClipboardHistoryView extends SelectListView
+class BaseorderView extends SelectListView
 
   editor: null
   forceClear: false
@@ -12,7 +12,7 @@ class ClipboardHistoryView extends SelectListView
   ###############################
   initialize: (@history, @editorView) ->
     super
-    @addClass('clipboard-history')
+    @addClass('baseorder')
     @_handleEvents()
 
   copy: ->
@@ -23,7 +23,7 @@ class ClipboardHistoryView extends SelectListView
       selectedText = @editor.getSelectedText()
       if selectedText.length > 0
         @_add selectedText
-      else if atom.config.get 'clipboard-history.enableCopyLine'
+      else if atom.config.get 'baseorder.enableCopyLine'
         #@editor.buffer.beginTransaction()
         originalPosition = @editor.getCursorBufferPosition()
         @editor.selectLinesContainingCursors()
@@ -73,7 +73,7 @@ class ClipboardHistoryView extends SelectListView
           @span text.limited
 
           # Preview
-          if atom.config.get 'clipboard-history.showSnippetForLargeItems'
+          if atom.config.get 'baseorder.showSnippetForLargeItems'
             @div class: 'preview hidden panel-bottom padded', =>
               @pre text.initial
 
@@ -87,9 +87,7 @@ class ClipboardHistoryView extends SelectListView
     # Show preview
     @list.find('.preview').addClass('hidden')
     preview = view.find '.preview'
-    if preview.length isnt 0 and
-      preview.text().length > 65 and
-      atom.config.get 'clipboard-history.showSnippetForLargeItems'
+    if preview.length isnt 0 and preview.text().length > 65 and atom.config.get 'baseorder.showSnippetForLargeItems'
       if view.position().top isnt 0
         preview.css({ 'top': (view.position().top - 5) + 'px'})
       preview.removeClass 'hidden'
@@ -119,8 +117,7 @@ class ClipboardHistoryView extends SelectListView
     atom.clipboard.write element, metadata
     @forceClear = false
 
-    if @history.length is 0 and
-      atom.config.get 'clipboard-history.showClearHistoryButton'
+    if @history.length is 0 and atom.config.get 'baseorder.showClearHistoryButton'
       @history.push
         text: 'Clear History',
         clearHistory: true
@@ -132,11 +129,11 @@ class ClipboardHistoryView extends SelectListView
   _handleEvents: ->
 
     atom.commands.add 'atom-workspace',
-      'clipboard-history:copy': (event) =>
+      'baseorder:copy': (event) =>
         @copy()
 
     atom.commands.add 'atom-workspace',
-      'clipboard-history:paste': (event) =>
+      'baseorder:paste': (event) =>
         if @panel?.isVisible()
           @cancel()
         else

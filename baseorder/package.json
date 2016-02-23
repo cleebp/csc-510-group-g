@@ -1,0 +1,22 @@
+{
+  "name": "baseorder",
+  "main": "./lib/baseorder",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "baseorder:copy",
+      "baseorder:paste"
+    ]
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0",
+    "jquery": "^2"
+  },
+  "dependencies": {
+    "atom-space-pen-views": ">=2.0.3"
+  }
+}
