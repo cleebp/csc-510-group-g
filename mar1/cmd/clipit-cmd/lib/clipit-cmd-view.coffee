@@ -9,7 +9,6 @@ class ClipitCmdView extends SelectListView
   workspaceView: atom.views.getView(atom.workspace)
 
   # Public methods
-  ###############################
   initialize: (@history, @editorView) ->
     super
     @addClass('clipit-cmd')
