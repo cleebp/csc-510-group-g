@@ -1,0 +1,26 @@
+{
+  "name": "clipit-cmd",
+  "main": "./lib/clipit-cmd",
+  "version": "0.0.2",
+  "description": "Clipit variation with command integrations for navigation.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "clipit-cmd:copy",
+      "clipit-cmd:cut",
+      "clipit-cmd:paste",
+      "clipit-cmd:indexNext",
+      "clipit-cmd:indexPrevious",
+      "clipit-cmd:show"
+    ]
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "fs": "*"
+  }
+}
