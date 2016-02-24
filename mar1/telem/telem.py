@@ -2,9 +2,6 @@ import Tkinter as tk
 from time import gmtime, strftime
 import applescript
 
-
-
-
 root = tk.Tk()
 
 root.withdraw()
