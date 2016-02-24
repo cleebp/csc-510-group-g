@@ -1,0 +1,27 @@
+http://thesetupwizard.tumblr.com/tagged/setupwizard/chrono, 2016-02-23 17:36:57, [u'iTerm', u'1. python telem.py (Python)']
+, 2016-02-23 17:37:06, [u'Microsoft OneNote', u'Feb 23rd']
+Closures:
+, 2016-02-23 17:37:06, [u'Microsoft OneNote', u'Feb 23rd']
+, 2016-02-23 17:37:08, [u'Microsoft OneNote', u'Feb 23rd']
+Created when the scope of some in, 2016-02-23 17:37:08, [u'Microsoft OneNote', u'Feb 23rd']
+, 2016-02-23 17:37:12, [u'firefox', u'Mozilla Firefox Start Page']
+e browsed a, 2016-02-23 17:37:12, [u'firefox', u'Mozilla Firefox Start Page']
+I just signed up for free #iot #builderkit hardware from @GetStructure. Get yours at http://hubs.ly/H029qL70, 2016-02-24 14:13:00, [u'iTerm', u'1. python telem.py (zsh)']
+, 2016-02-24 14:13:09, [u'Atom', u'clipit-cmd-view.coffee \u2014 /Users/arjun/Projects/csc-510-group-g/mar1/telem/clipit-cmd']
+pastedText = item.text + ', ' + getDate() + ', atom/' + atom.workspace.getActivePaneItem().getTitle() + '\n'
+         fs.appendFile process.env.HOME + '/test.txt', pastedText, (err) ->
+           if err
+             throw err, 2016-02-24 14:13:09, [u'Atom', u'clipit-cmd-view.coffee \u2014 /Users/arjun/Projects/csc-510-group-g/mar1/telem/clipit-cmd']
+, 2016-02-24 14:13:15, [u'Atom', u'clipit-cmd-view.coffee \u2014 /Users/arjun/Projects/csc-510-group-g/mar1/telem/clipit-cmd']
+
+           console.log 'Saved!'
+           returnselect: false, 2016-02-24 14:13:15, [u'Atom', u'clipit-cmd-view.coffee \u2014 /Users/arjun/Projects/csc-510-group-g/mar1/telem/clipit-cmd']
+   fs.appendFile process.env.HOME + '/test.txt', pastedText, (err) ->
+           if err, 2016-02-24 14:13:19, [u'Atom', u'clipit-cmd-view.coffee \u2014 /Users/arjun/Projects/csc-510-group-g/mar1/telem/clipit-cmd']
+
+           console.log 'Saved!'
+           returnselect: false, 2016-02-24 14:13:30, [u'Atom', u'clipit-cmd-view.coffee \u2014 /Users/arjun/Projects/csc-510-group-g/mar1/telem/clipit-cmd']
+   returnselect: false, 2016-02-24 14:14:33, [u'Atom', u'clipit-cmd-view.coffee \u2014 /Users/arjun/Projects/csc-510-group-g/mar1/telem/clipit-cmd']
+, 2016-02-24 14:23:10, [u'Safari', u'Builder Kit Instructions | Structure IoT Developer Platform']
+https://www.getstructure.io/get-the-kit/instructions, 2016-02-24 14:23:10, [u'Safari', u'Builder Kit Instructions | Structure IoT Developer Platform']
+https://www.getstructure.io/get-the-kit?utm_campaign=Builder%20Kit&utm_medium=social&utm_source=twitter, 2016-02-24 14:30:15, [u'Safari', u'Get a Free Builder Kit | Structure IoT Developer Kit']
