@@ -55,7 +55,7 @@ class BaseorderView extends SelectListView
 
   # Overrides (Select List)
   ###############################
-  viewForItem: ({text, date, count, clearHistory}) ->
+  viewForItem: ({text, date, count, source, clearHistory}) ->
     if clearHistory
       $$ ->
         @li class: 'two-lines text-center', =>
@@ -64,6 +64,7 @@ class BaseorderView extends SelectListView
       text = @_limitString text, 65
       date = @_timeSince date
       count = @_showFreq count
+      source = @_showSource source
 
       $$ ->
         @li class: 'two-lines', =>
@@ -71,6 +72,7 @@ class BaseorderView extends SelectListView
             @span date
           @div class: 'pull-left secondary-line', =>
             @span count
+            @span source
           @span text.limited
 
           # Preview
@@ -143,6 +145,7 @@ class BaseorderView extends SelectListView
       'text': element
       'date': Date.now()
       'count': 0
+      'source': atom.workspace.getActivePaneItem().getTitle()
 
   _attach: ->
     @panel ?= atom.workspace.addModalPanel(item: this)
@@ -153,6 +156,9 @@ class BaseorderView extends SelectListView
 
   _showFreq: (count) ->
     return "Frequency: " + count
+
+  _showSource: (source) ->
+    return "Source: " + source
 
   _timeSince: (date) ->
     if date
