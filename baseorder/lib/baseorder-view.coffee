@@ -21,6 +21,8 @@ class BaseorderView extends SelectListView
 
     if @editor
       selectedText = @editor.getSelectedText()
+
+      # If no text selected, copy current line
       if selectedText.length > 0
         @_add selectedText
       else if atom.config.get 'baseorder.enableCopyLine'
@@ -30,11 +32,7 @@ class BaseorderView extends SelectListView
         selectedText = @editor.getSelectedText()
         @editor.setCursorBufferPosition originalPosition
         #@editor.buffer.commitTransaction()
-        if selectedText.length > 0
-          atom.clipboard.metadata = atom.clipboard.metadata || {}
-          atom.clipboard.metadata.fullline = true
-          atom.clipboard.metadata.fullLine = true
-          @_add selectedText, atom.clipboard.metadata
+        @_add selectedText
 
   paste: ->
     exists = false
@@ -57,7 +55,7 @@ class BaseorderView extends SelectListView
 
   # Overrides (Select List)
   ###############################
-  viewForItem: ({text, date, clearHistory}) ->
+  viewForItem: ({text, date, count, clearHistory}) ->
     if clearHistory
       $$ ->
         @li class: 'two-lines text-center', =>
@@ -65,11 +63,14 @@ class BaseorderView extends SelectListView
     else
       text = @_limitString text, 65
       date = @_timeSince date
+      count = @_showFreq count
 
       $$ ->
         @li class: 'two-lines', =>
           @div class: 'pull-right secondary-line', =>
             @span date
+          @div class: 'pull-left secondary-line', =>
+            @span count
           @span text.limited
 
           # Preview
@@ -99,9 +100,9 @@ class BaseorderView extends SelectListView
     else
       @history.splice(@history.indexOf(item), 1)
       @history.push(item)
+      item.count++
       atom.clipboard.write(item.text)
-      atom.workspace.getActivePaneItem().insertText item.text,
-        select: true
+      atom.workspace.getActivePaneItem().insertText item.text, select: true
     @cancel()
 
   getFilterKey: ->
@@ -113,19 +114,6 @@ class BaseorderView extends SelectListView
 
   # Helper methods
   ##############################
-  _add: (element, metadata = {}) ->
-    atom.clipboard.write element, metadata
-    @forceClear = false
-
-    if @history.length is 0 and atom.config.get 'baseorder.showClearHistoryButton'
-      @history.push
-        text: 'Clear History',
-        clearHistory: true
-
-    @history.push
-      'text': element
-      'date': Date.now()
-
   _handleEvents: ->
 
     atom.commands.add 'atom-workspace',
@@ -140,10 +128,21 @@ class BaseorderView extends SelectListView
           @paste()
 
   _setPosition: ->
-    @panel.item.parent().css('margin-left': 'auto',
-                            'margin-right': 'auto',
-                            top: 200,
-                            bottom: 'inherit')
+    @panel.item.parent().css('margin-left': 'auto', 'margin-right': 'auto', top: 200, bottom: 'inherit')
+
+  _add: (element, metadata = {}) ->
+    atom.clipboard.write element, metadata
+    @forceClear = false
+
+    if @history.length is 0 and atom.config.get 'baseorder.showClearHistoryButton'
+      @history.push
+        text: 'Clear History',
+        clearHistory: true
+
+    @history.push
+      'text': element
+      'date': Date.now()
+      'count': 0
 
   _attach: ->
     @panel ?= atom.workspace.addModalPanel(item: this)
@@ -151,6 +150,9 @@ class BaseorderView extends SelectListView
     @panel.show()
 
     @focusFilterEditor()
+
+  _showFreq: (count) ->
+    return "Frequency: " + count
 
   _timeSince: (date) ->
     if date
