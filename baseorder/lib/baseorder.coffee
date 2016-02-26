@@ -24,12 +24,12 @@ module.exports = Baseorder =
   clipboard: null
   subscriptions: null
 
-  activate: () ->
-    @subscriptions = new CompositeDisposable
-    @clipboard = new BaseorderView @history,
-      atom.workspace.getActivePaneItem()
+  activate: ->
+      @clipboard = new BaseorderView @history,
+        atom.workspace.getActivePaneItem()
 
   deactivate: ->
     @subscriptions.dispose()
 
   serialize: ->
+    #historyState : @history.serialize()

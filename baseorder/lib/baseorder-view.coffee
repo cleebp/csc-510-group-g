@@ -146,6 +146,7 @@ class BaseorderView extends SelectListView
       'date': Date.now()
       'count': 0
       'source': atom.workspace.getActivePaneItem().getTitle()
+      'like': false
 
   _attach: ->
     @panel ?= atom.workspace.addModalPanel(item: this)
