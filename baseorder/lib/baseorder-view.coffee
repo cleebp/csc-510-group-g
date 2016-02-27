@@ -4,6 +4,8 @@ module.exports =
 
 class BaseorderView extends SelectListView
 
+  atom.deserializers.add(this)
+
   editor: null
   forceClear: false
   workspaceView: atom.views.getView(atom.workspace)
@@ -179,3 +181,5 @@ class BaseorderView extends SelectListView
     if string.length > limit
       text.limited = string.substr(0, limit) + ' ...'
     return text
+
+  serialize: -> { deserializer: 'BaseorderView', data: @history }

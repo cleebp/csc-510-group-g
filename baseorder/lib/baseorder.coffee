@@ -1,5 +1,7 @@
 { CompositeDisposable } = require 'atom'
 BaseorderView = require './baseorder-view'
+jsonfile = require 'jsonfile'
+util = require 'util'
 
 module.exports = Baseorder =
 
@@ -24,12 +26,13 @@ module.exports = Baseorder =
   clipboard: null
   subscriptions: null
 
-  activate: ->
-      @clipboard = new BaseorderView @history,
+  activate: (state) ->
+    @history = state.data
+    @clipboard = new BaseorderView @history,
         atom.workspace.getActivePaneItem()
 
   deactivate: ->
     @subscriptions.dispose()
 
   serialize: ->
-    #historyState : @history.serialize()
+    @clipboard.serialize()
