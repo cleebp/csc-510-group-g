@@ -1,0 +1,8 @@
+console.log 'Saved!', 2016-11-23 23:49:51, atom/clipit-cmd-view.coffee
+   fs.appendFile process.env.HOME + '/test.txt', pastedText, (err) ->
+           if err, 2016-11-24 14:13:24, atom/clipit-cmd-view.coffee
+   returnselect: false, 2016-11-24 14:14:35, atom/clipit-cmd-view.coffee
+this is also a test, 2016-11-28 15:20:14, atom/untitled
+this is also a test, 2016-11-28 15:20:58, atom/untitled
+this is also a test, 2016-11-28 15:20:58, atom/untitled
+this is a test, 2016-11-28 15:21:02, atom/untitled
