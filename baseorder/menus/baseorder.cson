@@ -8,6 +8,10 @@
       'label': 'Paste History',
       'command': 'baseorder:paste'
     }
+    {
+      'label': 'Sort by Frequency',
+      'command': 'baseorder:sortFreq'
+    }
   ]
 'menu': [
   {
@@ -17,6 +21,7 @@
       'submenu': [
         { 'label': 'Copy', 'command': 'baseorder:copy' }
         { 'label': 'Paste History', 'command': 'baseorder:paste' }
+        { 'label': 'Sort by Frequency', 'command': 'baseorder:sortFreq' }
       ]
     ]
   }

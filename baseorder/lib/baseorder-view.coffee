@@ -55,6 +55,10 @@ class BaseorderView extends SelectListView
       @setError "There are no items in your clipboard."
     @_attach()
 
+  sortFreq: ->
+    array = @history.slice(1, @history.length)
+    console.log(array)
+
   # Overrides (Select List)
   ###############################
   viewForItem: ({text, date, count, source, clearHistory}) ->
@@ -130,6 +134,10 @@ class BaseorderView extends SelectListView
           @cancel()
         else
           @paste()
+
+    atom.commands.add 'atom-workspace',
+      'baseorder:sortFreq': (event) =>
+        @sortFreq()
 
   _setPosition: ->
     @panel.item.parent().css('margin-left': 'auto', 'margin-right': 'auto', top: 200, bottom: 'inherit')
