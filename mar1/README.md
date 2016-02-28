@@ -7,15 +7,23 @@ For our project we adapted the open source Atom package `clipboard-history` whic
 - [Issues](https://github.com/cleebp/csc-510-group-g/issues)
 - [Milestones](https://github.com/cleebp/csc-510-group-g/milestones)
 - [Contributors](https://github.com/cleebp/csc-510-group-g/graphs/contributors)
-- [Logs](https://github.com/cleebp/csc-510-group-g/blob/master/mar1/telem/logSample.txt)
+- [Sample Log](https://github.com/cleebp/csc-510-group-g/blob/master/mar1/telem/logSample.txt)
 
 ## Subdirectories
 
-- `/base`: The base version of `clipboard-history` all of our packages are built on, see "sources"
-- `/clipit-cmd`: Command based version of `clipit`, allows full interaction solely through command interaction
-- `/clipit-order`: Contextual based ordering version of `clipit`, offers more contextual information in the clipboard history for sorting
-- `/clipit-panel`: Static panel based version of `clipit`, clipboard history is now statically placed on the screen rather than dynamically called
-- `/telem`: Telemetry package built to log copy and paste instances for future user testing
+- [Base code](https://github.com/cleebp/csc-510-group-g/tree/master/mar1/base) `clipboard-history`: base version all packages are built on, see "sources"
+- [Feature #1](https://github.com/cleebp/csc-510-group-g/tree/master/mar1/clipit-cmd) `clipit-cmd`: command based version of `clipit`, allows full interaction solely through command interaction
+- [Feature #2](https://github.com/cleebp/csc-510-group-g/tree/master/mar1/clipit-order) `clipit-order`: contextual based ordering version of `clipit`, allows sorting clipboard by time, frequencey, and source
+- [Feature #3](https://github.com/cleebp/csc-510-group-g/tree/master/mar1/clipit-panel) `clipit-panel`: static panel based version of `clipit`, clipboard history is now statically placed on the screen rather than dynamically called
+- [Telemetry](https://github.com/cleebp/csc-510-group-g/tree/master/mar1/telem) `telem`: telemetry package built to log copy and paste instances for future user testing
+
+## Evaluation Plan
+
+In order to evaluate our features for the clipboard manager, we will be performing user tests on each of the clipboard features. Each group member will be in charge of finding 3 participants who are familiar with coding in modern text editors, 1 participant for each feature. By doing this we will gather 12 total user tests, 4 tests per feature, and more importantly each participant will only interact with 1 feature, avoiding learning bias.
+
+During our user tests our telemetry package (see `telem`) will be running and logging all user copy and paste events, along with the location and content of the events. Furthermore, a group member will be present and taking active notes on any problems or insights the users exhibit. The actual content of the test will involve the participant being provided an existing code base in the Atom IDE, and then being asked to perform a set of operations and changes to that code base that favor copy and paste events under different circumstances (copies in the same file, copies across files, copies across applications).
+
+Finally, we will gather all of the information from these user tests and through detailed analysis on each feature, make meaningful judgements on which feature best allowed users to copy and paste effectively and efficiently.
 
 ## Sources
 
