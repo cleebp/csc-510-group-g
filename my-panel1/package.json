@@ -1,0 +1,19 @@
+{
+  "name": "my-panel1",
+  "main": "./lib/my-panel1",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "my-panel1:toggle"
+  },
+  "repository": "https://github.com/atom/my-panel1",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3"
+  }
+}
