@@ -2,13 +2,19 @@
   'cmd-c':       'baseorder:copy'
   'cmd-shift-v': 'baseorder:paste'
   'cmd-shift-q': 'baseorder:sortFreq'
+  'cmd-shift-s': 'baseorder:sortSource'
+  'cmd-shift-t': 'baseorder:sortTime'
 
 '.platform-win32, .platform-win32 .atom-workspace':
   'ctrl-c':       'baseorder:copy'
   'ctrl-shift-v': 'baseorder:paste'
   'ctrl-shift-q': 'baseorder:sortFreq'
+  'ctrl-shift-s': 'baseorder:sortSource'
+  'ctrl-shift-t': 'baseorder:sortTime'
 
 '.platform-linux, .platform-linux .atom-workspace':
   'ctrl-c':       'baseorder:copy'
   'ctrl-shift-v': 'baseorder:paste'
   'ctrl-shift-q': 'baseorder:sortFreq'
+  'ctrl-shift-s': 'baseorder:sortSource'
+  'ctrl-shift-t': 'baseorder:sortTime'

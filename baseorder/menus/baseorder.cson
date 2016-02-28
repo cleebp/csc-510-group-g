@@ -12,6 +12,14 @@
       'label': 'Sort by Frequency',
       'command': 'baseorder:sortFreq'
     }
+    {
+      'label': 'Sort by Source',
+      'command': 'baseorder:sortSource'
+    }
+    {
+      'label': 'Sort by Time',
+      'command': 'baseorder:sortTime'
+    }
   ]
 'menu': [
   {
@@ -22,6 +30,8 @@
         { 'label': 'Copy', 'command': 'baseorder:copy' }
         { 'label': 'Paste History', 'command': 'baseorder:paste' }
         { 'label': 'Sort by Frequency', 'command': 'baseorder:sortFreq' }
+        { 'label': 'Sort by Source', 'command': 'baseorder:sortSource' }
+        { 'label': 'Sort by Time', 'command': 'baseorder:sortTime' }
       ]
     ]
   }

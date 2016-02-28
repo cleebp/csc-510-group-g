@@ -21,6 +21,9 @@ module.exports = Baseorder =
       description: 'Copy the whole line when no selection'
 
   history: []
+  byTime: false
+  bySource: false
+  byFreq: false
   clipboard: null
   subscriptions: null
 

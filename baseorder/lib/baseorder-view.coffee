@@ -57,7 +57,33 @@ class BaseorderView extends SelectListView
 
   sortFreq: ->
     array = @history.slice(1, @history.length)
-    console.log(array)
+    @_sortFreq(array)
+    @history = [@history[0]]
+    for item in array
+      @history.push(item)
+    @byFreq = true
+    @bySource = false
+    @byTime = false
+
+  sortSource: ->
+    array = @history.slice(1, @history.length)
+    @_sortSource(array)
+    @history = [@history[0]]
+    for item in array
+      @history.push(item)
+    @byFreq = false
+    @bySource = true
+    @byTime = false
+
+  sortTime: ->
+    array = @history.slice(1, @history.length)
+    @_sortTime(array)
+    @history = [@history[0]]
+    for item in array
+      @history.push(item)
+    @byFreq = false
+    @bySource = false
+    @byTime = true
 
   # Overrides (Select List)
   ###############################
@@ -71,14 +97,17 @@ class BaseorderView extends SelectListView
       date = @_timeSince date
       count = @_showFreq count
       source = @_showSource source
+      showOption = @_showOption()
 
       $$ ->
         @li class: 'two-lines', =>
           @div class: 'pull-right secondary-line', =>
-            @span date
-          @div class: 'pull-left secondary-line', =>
-            @span count
-            @span source
+            if showOption == 'T'
+              @span date
+            if showOption == 'F'
+              @span count
+            if showOption == 'S'
+              @span source
           @span text.limited
 
           # Preview
@@ -139,6 +168,14 @@ class BaseorderView extends SelectListView
       'baseorder:sortFreq': (event) =>
         @sortFreq()
 
+    atom.commands.add 'atom-workspace',
+      'baseorder:sortSource': (event) =>
+        @sortSource()
+
+    atom.commands.add 'atom-workspace',
+      'baseorder:sortTime': (event) =>
+        @sortTime()
+
   _setPosition: ->
     @panel.item.parent().css('margin-left': 'auto', 'margin-right': 'auto', top: 200, bottom: 'inherit')
 
@@ -189,5 +226,55 @@ class BaseorderView extends SelectListView
     if string.length > limit
       text.limited = string.substr(0, limit) + ' ...'
     return text
+
+  _showOption: ->
+    if @byTime
+      return 'T'
+    if @bySource
+      return 'S'
+    if @byFreq
+      return 'F'
+
+  _sortFreq: (arr) ->
+    len = arr.length
+    i = len - 1
+    while i >= 0
+      j = 1
+      while j <= i
+        if arr[j - 1].count > arr[j].count
+          temp = arr[j - 1]
+          arr[j - 1] = arr[j]
+          arr[j] = temp
+        j++
+      i--
+    arr
+
+  _sortSource: (arr) ->
+    len = arr.length
+    i = len - 1
+    while i >= 0
+      j = 1
+      while j <= i
+        if arr[j - 1].source < arr[j].source
+          temp = arr[j - 1]
+          arr[j - 1] = arr[j]
+          arr[j] = temp
+        j++
+      i--
+    arr
+
+  _sortTime: (arr) ->
+    len = arr.length
+    i = len - 1
+    while i >= 0
+      j = 1
+      while j <= i
+        if arr[j - 1].date > arr[j].date
+          temp = arr[j - 1]
+          arr[j - 1] = arr[j]
+          arr[j] = temp
+        j++
+      i--
+    arr
 
   serialize: -> { deserializer: 'BaseorderView', data: @history }

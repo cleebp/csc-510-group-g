@@ -9,7 +9,9 @@
     "atom-workspace": [
       "baseorder:copy",
       "baseorder:paste",
-      "baseorder:sortFreq"
+      "baseorder:sortFreq",
+      "baseorder:sortSource",
+      "baseorder:sortTime"
     ]
   },
   "license": "MIT",
