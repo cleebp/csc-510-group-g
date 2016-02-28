@@ -7,7 +7,7 @@ For our project we adapted the open source Atom package `clipboard-history` whic
 - [Issues](https://github.com/cleebp/csc-510-group-g/issues)
 - [Milestones](https://github.com/cleebp/csc-510-group-g/milestones)
 - [Contributors](https://github.com/cleebp/csc-510-group-g/graphs/contributors)
-- [Logs]()
+- [Logs](https://github.com/cleebp/csc-510-group-g/blob/master/mar1/telem/logSample.txt)
 
 ## Subdirectories
 
