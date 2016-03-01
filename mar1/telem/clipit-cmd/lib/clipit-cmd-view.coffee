@@ -85,7 +85,6 @@ class ClipitCmdView extends SelectListView
          fs.appendFile process.env.HOME + '/test.txt', pastedText, (err) ->
            if err
              throw err
-
            console.log 'Saved!'
            returnselect: false
 
