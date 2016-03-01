@@ -19,7 +19,6 @@ class MyPanel1View extends SelectListView
     @addClass('my-panel1')
     @_handleEvents()
 
-
     message = document.createElement('div')
     message.textContent = "Atom Clipboard Panel"
     message.classList.add('message')
@@ -37,7 +36,7 @@ class MyPanel1View extends SelectListView
       selectedText = @editor.getSelectedText()
       if selectedText.length > 0
         @_add selectedText
-        #new
+        #display the item on the pane
         if @history.length > 0
           @setItems @history.slice(0).reverse()
           @_attach()
@@ -53,7 +52,7 @@ class MyPanel1View extends SelectListView
           atom.clipboard.metadata.fullline = true
           atom.clipboard.metadata.fullLine = true
           @_add selectedText, atom.clipboard.metadata
-          #new
+          #display the item on the pane
           if @history.length > 0
             @setItems @history.slice(0).reverse()
             @_attach()
@@ -74,6 +73,7 @@ class MyPanel1View extends SelectListView
     # Attach to view
     if @history.length > 0
       @setItems @history.slice(0).reverse()
+      #also actually paste the most recent item, because thats helpful
       atom.workspace.getActivePaneItem().insertText clipboardItem,
         select: true
     else
@@ -118,6 +118,7 @@ class MyPanel1View extends SelectListView
       preview.removeClass 'hidden'
 
   confirmed: (item) ->
+    console.log 'confirming'
     if item.clearHistory?
       @history = []
       @forceClear = true
@@ -128,6 +129,9 @@ class MyPanel1View extends SelectListView
       atom.workspace.getActivePaneItem().insertText item.text,
         select: true
     @cancel()
+    #tiny hack to get the panel updated and displaying
+    @setItems @history.slice(0).reverse()
+    @_attach()
 
   getFilterKey: ->
     'text'
@@ -158,10 +162,7 @@ class MyPanel1View extends SelectListView
 
     atom.commands.add 'atom-workspace',
       'my-panel1:paste': (event) =>
-      #  if @panel?.isVisible()
-      #    @cancel()
-      #  else
-          @paste()
+        @paste()
 
   _setPosition: ->
     @panel.item.parent().css('margin-left': 'auto', 'margin-right': 'auto', top: 200, bottom: 'inherit')
