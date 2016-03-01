@@ -2,4 +2,4 @@
 
 This section adds a panel feature to the base version. User can view copied items on a right panel.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![A screenshot of your package](https://github.com/cleebp/csc-510-group-g/tree/master/mar1/clipit-panel/panel1.gif)
