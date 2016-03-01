@@ -19,7 +19,6 @@ class MyPanel1View extends SelectListView
     @addClass('my-panel1')
     @_handleEvents()
 
-
     message = document.createElement('div')
     message.textContent = "Atom Clipboard Panel"
     message.classList.add('message')
@@ -29,6 +28,7 @@ class MyPanel1View extends SelectListView
     @panel.show()
 
   copy: ->
+    console.log 'copy called'
     @storeFocusedElement()
     @editor = atom.workspace.getActiveTextEditor()
 
@@ -36,6 +36,10 @@ class MyPanel1View extends SelectListView
       selectedText = @editor.getSelectedText()
       if selectedText.length > 0
         @_add selectedText
+        #display the item on the pane
+        if @history.length > 0
+          @setItems @history.slice(0).reverse()
+          @_attach()
       else if atom.config.get 'my-panel1.enableCopyLine'
         #@editor.buffer.beginTransaction()
         originalPosition = @editor.getCursorBufferPosition()
@@ -48,8 +52,13 @@ class MyPanel1View extends SelectListView
           atom.clipboard.metadata.fullline = true
           atom.clipboard.metadata.fullLine = true
           @_add selectedText, atom.clipboard.metadata
+          #display the item on the pane
+          if @history.length > 0
+            @setItems @history.slice(0).reverse()
+            @_attach()
 
   paste: ->
+    console.log 'paste called'
     exists = false
     clipboardItem = atom.clipboard.read()
 
@@ -64,6 +73,9 @@ class MyPanel1View extends SelectListView
     # Attach to view
     if @history.length > 0
       @setItems @history.slice(0).reverse()
+      #also actually paste the most recent item, because thats helpful
+      atom.workspace.getActivePaneItem().insertText clipboardItem,
+        select: true
     else
       @setError "There are no items in your clipboard."
     @_attach()
@@ -97,8 +109,6 @@ class MyPanel1View extends SelectListView
     view.addClass 'selected'
     @scrollToItemView view
 
-
-
     # Show preview
     @list.find('.preview').addClass('hidden') # 2/28
     preview = view.find '.preview'
@@ -108,6 +118,7 @@ class MyPanel1View extends SelectListView
       preview.removeClass 'hidden'
 
   confirmed: (item) ->
+    console.log 'confirming'
     if item.clearHistory?
       @history = []
       @forceClear = true
@@ -118,6 +129,9 @@ class MyPanel1View extends SelectListView
       atom.workspace.getActivePaneItem().insertText item.text,
         select: true
     @cancel()
+    #tiny hack to get the panel updated and displaying
+    @setItems @history.slice(0).reverse()
+    @_attach()
 
   getFilterKey: ->
     'text'
@@ -148,10 +162,7 @@ class MyPanel1View extends SelectListView
 
     atom.commands.add 'atom-workspace',
       'my-panel1:paste': (event) =>
-      #  if @panel?.isVisible()
-      #    @cancel()
-      #  else
-          @paste()
+        @paste()
 
   _setPosition: ->
     @panel.item.parent().css('margin-left': 'auto', 'margin-right': 'auto', top: 200, bottom: 'inherit')
@@ -159,9 +170,6 @@ class MyPanel1View extends SelectListView
   _attach: ->
     @panel = atom.workspace.addRightPanel(item: this)
     @_setPosition()
-
-
-
 
   #  @focusFilterEditor() # uncommenting this line will not show panel alwys
 

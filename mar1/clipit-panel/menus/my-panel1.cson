@@ -2,7 +2,7 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle my-panel1'
+      'label': 'Toggle clipit-panel'
       'command': 'my-panel1:toggle'
     }
   ]
@@ -10,7 +10,7 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'my-panel1'
+      'label': 'Clipit-panel'
       'submenu': [
         {
           'label': 'Toggle'
