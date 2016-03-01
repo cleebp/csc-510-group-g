@@ -1,14 +1,18 @@
 {
   "name": "my-panel1",
   "main": "./lib/my-panel1",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "Panel extension to clipit",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "my-panel1:toggle"
+    "atom-workspace": [
+        "my-panel1:toggle",
+        "my-panel1:copy",
+        "my-panel1:paste"
+      ]
   },
-  "repository": "https://github.com/atom/my-panel1",
+  "repository": "https://github.com/cleebp/csc-510-group-g/tree/master/mar1/clipit-panel",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

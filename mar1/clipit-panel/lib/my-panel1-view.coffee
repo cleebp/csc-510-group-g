@@ -29,6 +29,7 @@ class MyPanel1View extends SelectListView
     @panel.show()
 
   copy: ->
+    console.log 'copy called'
     @storeFocusedElement()
     @editor = atom.workspace.getActiveTextEditor()
 
@@ -50,6 +51,7 @@ class MyPanel1View extends SelectListView
           @_add selectedText, atom.clipboard.metadata
 
   paste: ->
+    console.log 'paste called'
     exists = false
     clipboardItem = atom.clipboard.read()
 

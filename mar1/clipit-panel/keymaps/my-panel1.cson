@@ -7,11 +7,17 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
-'atom-workspace':
-  'ctrl-alt-o': 'my-panel1:toggle'
+'.platform-darwin, .platform-darwin .atom-workspace':
+  'cmd-c':       'my-panel1:copy'
+  'cmd-v':       'my-panel1:paste'
+  'cmd-alt-o':   'my-panel1:toggle'
 
-'atom-workspace':
-  'ctrl-c': 'my-panel1:copy'
-  'ctrl-v': 'my-panel1:paste'
+'.platform-win32, .platform-win32 .atom-workspace':
+  'ctrl-c':        'my-panel1:copy'
+  'ctrl-v':        'my-panel1:paste'
+  'ctrl-alt-o':    'my-panel1:toggle'
 
-  
+'.platform-linux, .platform-linux .atom-workspace':
+  'ctrl-c':        'my-panel1:copy'
+  'ctrl-v':        'my-panel1:paste'
+  'ctrl-alt-o':    'my-panel1:toggle'
