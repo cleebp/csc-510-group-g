@@ -1,1 +1,0 @@
-![A screenshot of your package](panel1.gif)
