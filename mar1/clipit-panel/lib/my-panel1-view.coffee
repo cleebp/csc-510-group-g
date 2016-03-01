@@ -37,6 +37,10 @@ class MyPanel1View extends SelectListView
       selectedText = @editor.getSelectedText()
       if selectedText.length > 0
         @_add selectedText
+        #new
+        if @history.length > 0
+          @setItems @history.slice(0).reverse()
+          @_attach()
       else if atom.config.get 'my-panel1.enableCopyLine'
         #@editor.buffer.beginTransaction()
         originalPosition = @editor.getCursorBufferPosition()
@@ -49,6 +53,10 @@ class MyPanel1View extends SelectListView
           atom.clipboard.metadata.fullline = true
           atom.clipboard.metadata.fullLine = true
           @_add selectedText, atom.clipboard.metadata
+          #new
+          if @history.length > 0
+            @setItems @history.slice(0).reverse()
+            @_attach()
 
   paste: ->
     console.log 'paste called'
@@ -66,6 +74,8 @@ class MyPanel1View extends SelectListView
     # Attach to view
     if @history.length > 0
       @setItems @history.slice(0).reverse()
+      atom.workspace.getActivePaneItem().insertText clipboardItem,
+        select: true
     else
       @setError "There are no items in your clipboard."
     @_attach()
@@ -98,8 +108,6 @@ class MyPanel1View extends SelectListView
     @list.find('.selected').removeClass('selected')
     view.addClass 'selected'
     @scrollToItemView view
-
-
 
     # Show preview
     @list.find('.preview').addClass('hidden') # 2/28
@@ -161,9 +169,6 @@ class MyPanel1View extends SelectListView
   _attach: ->
     @panel = atom.workspace.addRightPanel(item: this)
     @_setPosition()
-
-
-
 
   #  @focusFilterEditor() # uncommenting this line will not show panel alwys
 
