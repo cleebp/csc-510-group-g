@@ -28,8 +28,9 @@ module.exports = Baseorder =
   subscriptions: null
 
   activate: (state) ->
-    if state
-      @history = state.data
+    #data persistence bug below 
+    #if state
+    #  @history = state.data
     @clipboard = new BaseorderView @history,
         atom.workspace.getActivePaneItem()
 
