@@ -1,8 +1,8 @@
 {
   "name": "baseorder",
   "main": "./lib/baseorder",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "Contextual ordering variation of Clipit",
   "keywords": [
   ],
   "activationCommands": {
@@ -14,6 +14,7 @@
       "baseorder:sortTime"
     ]
   },
+  "repository": "https://github.com/cleebp/csc-510-group-g/tree/master/mar1/clipit-cmd",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0",

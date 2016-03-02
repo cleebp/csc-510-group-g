@@ -1,9 +1,9 @@
 '.platform-darwin, .platform-darwin .atom-workspace':
-  'cmd-c':       'baseorder:copy'
-  'cmd-shift-v': 'baseorder:paste'
-  'cmd-shift-q': 'baseorder:sortFreq'
-  'cmd-shift-s': 'baseorder:sortSource'
-  'cmd-shift-t': 'baseorder:sortTime'
+  'cmd-c':        'baseorder:copy'
+  'cmd-shift-v':  'baseorder:paste'
+  'cmd-shift-q':  'baseorder:sortFreq'
+  'cmd-shift-s':  'baseorder:sortSource'
+  'cmd-shift-t':  'baseorder:sortTime'
 
 '.platform-win32, .platform-win32 .atom-workspace':
   'ctrl-c':       'baseorder:copy'
