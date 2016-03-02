@@ -163,10 +163,10 @@ class BaseorderView extends SelectListView
       atom.clipboard.write(item.text)
       atom.workspace.getActivePaneItem().insertText item.text, select: true
       pastedText = item.text + ', ' + getDate() + ', atom/' + atom.workspace.getActivePaneItem().getTitle() + '\n'
-         fs.appendFile process.env.HOME + '/test.txt', pastedText, (err) ->
-           if err
-             throw err
-           console.log 'Saved!'
+      fs.appendFile process.env.HOME + '/test.txt', pastedText, (err) ->
+       if err
+         throw err
+       console.log 'Saved!'
     @cancel()
 
   getFilterKey: ->
