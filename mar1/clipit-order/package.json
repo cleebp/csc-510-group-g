@@ -21,6 +21,7 @@
     "jquery": "^2"
   },
   "dependencies": {
-    "atom-space-pen-views": ">=2.0.3"
+    "atom-space-pen-views": ">=2.0.3",
+    "fs": "*"
   }
 }
