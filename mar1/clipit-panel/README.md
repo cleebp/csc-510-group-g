@@ -1,4 +1,4 @@
-# my-panel1 package
+# clipit-panel
 
 This section adds a panel feature to the base version of `clipit`. Users can view their clipboard history on a static right panel inside the Atom editor. Whenever a user copies an item from the atom workspace, it immediately appears on the panel, while items that are copied from outside of the atom workspace will be displayed on the panel only after pasting them inside the workspace.
 
