@@ -19,7 +19,7 @@ For our project we adapted the open source Atom package `clipboard-history` whic
 
 ## Evaluation Plan
 
-In order to evaluate our features for the clipboard manager, we will be performing user tests on each of the clipboard features. Each group member will be in charge of finding 3 participants who are familiar with coding in modern text editors, 1 participant for each feature. By doing this we will gather 12 total user tests, 4 tests per feature, and more importantly each participant will only interact with 1 feature, avoiding learning bias.
+In order to evaluate our features for the clipboard manager, we will be performing user tests on each of the clipboard features. Each group member will be in charge of finding 4 participants who are familiar with coding in modern text editors, 1 participant for each feature, and 1 participant as a control group using standard copy/paste commands. By doing this we will gather 16 total user tests, 4 tests per feature, 4 tests for the control group, and more importantly each participant will only interact with 1 feature, avoiding learning bias.
 
 During our user tests our telemetry package (see `telem`) will be running and logging all user copy and paste events, along with the location and content of the events. Furthermore, a group member will be present and taking active notes on any problems or insights the users exhibit. The actual content of the test will involve the participant being provided an existing code base in the Atom IDE, and then being asked to perform a set of operations and changes to that code base that favor copy and paste events under different circumstances (copies in the same file, copies across files, copies across applications).
 

@@ -1,6 +1,4 @@
-# Mar1 Deliverable
-
-## Telemetry
+# Telemetry
 
 ## Usage
 
