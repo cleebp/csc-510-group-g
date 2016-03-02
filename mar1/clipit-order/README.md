@@ -15,3 +15,7 @@ This section adds contextual sorting feature to the base version of `clipit`. Th
 ## Todo
 
 - Fix preview bug eventually
+
+- Some further improvement
+  * add link to the source of copied  items
+  * allow simple editing of copied items such as combining two items
