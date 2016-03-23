@@ -78,34 +78,49 @@ class BaseorderView extends SelectListView
     @_attach()
 
   sortFreq: ->
-    array = @history.slice(1, @history.length)
-    @_sortFreq(array)
-    @history = [@history[0]]
-    for item in array
-      @history.push(item)
-    @byFreq = true
-    @bySource = false
-    @byTime = false
+    if(@history.length > 1)
+      array = @history.slice(1, @history.length)
+      @_sortFreq(array)
+      @history = [@history[0]]
+      for item in array
+        @history.push(item)
+      @byFreq = true
+      @bySource = false
+      @byTime = false
+    else
+      @byFreq = false
+      @bySource = false
+      @byTime = false
 
   sortSource: ->
-    array = @history.slice(1, @history.length)
-    @_sortSource(array)
-    @history = [@history[0]]
-    for item in array
-      @history.push(item)
-    @byFreq = false
-    @bySource = true
-    @byTime = false
-
+    if(@history.length > 1)
+      array = @history.slice(1, @history.length)
+      @_sortSource(array)
+      @history = [@history[0]]
+      for item in array
+        @history.push(item)
+      @byFreq = false
+      @bySource = true
+      @byTime = false
+    else
+      @byFreq = false
+      @bySource = false
+      @byTime = false
+      
   sortTime: ->
-    array = @history.slice(1, @history.length)
-    @_sortTime(array)
-    @history = [@history[0]]
-    for item in array
-      @history.push(item)
-    @byFreq = false
-    @bySource = false
-    @byTime = true
+    if(@history.length > 1)
+      array = @history.slice(1, @history.length)
+      @_sortTime(array)
+      @history = [@history[0]]
+      for item in array
+        @history.push(item)
+      @byFreq = false
+      @bySource = false
+      @byTime = true
+    else
+      @byFreq = false
+      @bySource = false
+      @byTime = false
 
   # Overrides (Select List)
   ###############################
