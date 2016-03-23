@@ -1,0 +1,4 @@
+/* task 1 - copy 1 */
+'.platform-win32, .platform-win32 .atom-workspace':
+  'ctrl-c':       'clipboard-history:copy'
+  'ctrl-shift-v': 'clipboard-history:paste'
