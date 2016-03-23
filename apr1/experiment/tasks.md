@@ -27,4 +27,10 @@ There are four copies you need to make and paste at line 7 marked with the comme
 
 For this next task we are going to need some help from online, head to [this url](https://raw.githubusercontent.com/cleebp/csc-510-group-g/master/apr1/experiment/base/source/onlineSource.md) and copy the lines marked by '#task 3 - copy 1', you know the deal. Once you have this copied head back to /menus/clipboard-history and paste it on line 8 below the comment.
 
-We also have another copy inside /source/source1 marked by a comment that you will need to put below '#task 3 - 2nd paste below here!' inside /menus/clipboard-history which was part of the paste we just did. 
+We also have another copy inside /source/source1 marked by a comment that you will need to put below '#task 3 - 2nd paste below here!' inside /menus/clipboard-history which was part of the paste we just did.
+
+## Task 4
+[copy source from single window][inside editor copy][clipit-cmd]
+
+For this next task we will be taking 3 different copies from /source/source4 and placing them all inside /styles/clipboard-history.less.
+Simply navigate to the source4 directory and you will see the 3 items you need to copy with comments telling you the order to copy them in. However you would like, copy these 3 items and place them in the correct order inside /styles/clipboard-history.less (look for the comments to help with order, and be mindful of the tabs they are important).
