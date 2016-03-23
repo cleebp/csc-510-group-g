@@ -8,3 +8,14 @@
   'label': 'Separator',
   'command': '-'
 }
+
+#task 5 - copy 1
+showSnippetForLargeItems:
+  type: 'boolean'
+  default: true
+  title: 'Show Snippet'
+  description: 'When a long clipboard item, preview it a separate tooltip'
+
+#task 6 - copy 1
+deactivate: ->
+  @subscriptions.dispose()

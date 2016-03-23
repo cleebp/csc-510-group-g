@@ -3,3 +3,15 @@
   'label': 'Paste History',
   'command': 'clipboard-history:paste'
 },
+
+#task 5 - copy 2
+showClearHistoryButton:
+  type: 'boolean'
+  default: true
+  title: 'Show Clear History'
+  description: 'Display a button to clear your clipboard\'s history'
+
+#task 6 - copy 2
+activate: () ->
+  @subscriptions = new CompositeDisposable
+  @clipboard = new ClipboardHistoryView @history, atom.workspace.getActivePaneItem()

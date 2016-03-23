@@ -14,3 +14,10 @@
   { 'label': 'Copy', 'command': 'clipboard-history:copy' }
   { 'label': 'Paste', 'command': 'clipboard-history:paste' }
 ]
+
+#task 5 - copy 3
+enableCopyLine:
+  type: 'boolean'
+  default: true
+  title: 'Enable Copy Line'
+  description: 'Copy the whole line when no selection'

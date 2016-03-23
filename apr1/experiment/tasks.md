@@ -34,3 +34,15 @@ We also have another copy inside /source/source1 marked by a comment that you wi
 
 For this next task we will be taking 3 different copies from /source/source4 and placing them all inside /styles/clipboard-history.less.
 Simply navigate to the source4 directory and you will see the 3 items you need to copy with comments telling you the order to copy them in. However you would like, copy these 3 items and place them in the correct order inside /styles/clipboard-history.less (look for the comments to help with order, and be mindful of the tabs they are important).
+
+## Task 5
+[copy source from multiple windows][inside editor copy]
+
+This task will deal with pasting items back into /lib/clipboard-history.coffee (note: this does not have to deal with clipboard-history-view, these are very different files). In this file you will see comments for where 3 pastes need to happen in order, these 3 items are located across /source/source1, source2, and source3, and they are denoted with comments like '#task 5 - copy 3'.
+
+Try to be careful of spacing and make sure everything ends up in order!
+
+## Task 6
+[copy source from multiple windows][inside editor copy]
+
+Just like in task 5 this task will deal with finding 3 copies across /source/source2, source3, and source4, to then paste in the correct order inside /lib/clipboard-history.coffee.
