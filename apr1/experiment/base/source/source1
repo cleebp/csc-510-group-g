@@ -1,4 +1,16 @@
-/* task 1 - copy 1 */
+# task 1 - copy 1
 '.platform-win32, .platform-win32 .atom-workspace':
   'ctrl-c':       'clipboard-history:copy'
   'ctrl-shift-v': 'clipboard-history:paste'
+
+#task 2 - copy 1
+{
+  'label': 'Copy',
+  'command': 'clipboard-history:copy'
+},
+
+#task 3 - copy 2
+'submenu': [
+  { 'label': 'Copy', 'command': 'clipboard-history:copy' }
+  { 'label': 'Paste', 'command': 'clipboard-history:paste' }
+]

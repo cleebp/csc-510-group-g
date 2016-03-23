@@ -1,0 +1,5 @@
+#task 2 - copy 3
+{
+  'label': 'Paste History',
+  'command': 'clipboard-history:paste'
+},

@@ -1,4 +1,10 @@
-/* task 1 - copy 2 */
+# task 1 - copy 2
 '.platform-linux, .platform-linux .atom-workspace':
   'ctrl-c':       'clipboard-history:copy'
   'ctrl-shift-v': 'clipboard-history:paste'
+
+#task 2 - copy 4
+{
+  'label': 'Separator',
+  'command': '-'
+}

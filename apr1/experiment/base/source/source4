@@ -1,0 +1,5 @@
+#task 2 - copy 2
+{
+  'label': 'Paste',
+  'command': 'core:paste'
+},

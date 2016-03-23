@@ -4,33 +4,8 @@
       'label': 'Separator',
       'command': '-'
     },
-    {
-      'label': 'Copy',
-      'command': 'clipboard-history:copy'
-    },
-    {
-      'label': 'Paste',
-      'command': 'core:paste'
-    },
-    {
-      'label': 'Paste History',
-      'command': 'clipboard-history:paste'
-    },
-    {
-      'label': 'Separator',
-      'command': '-'
-    }
+    #task 2 - paste below here!
+
   ]
 
-'menu': [
-  {
-    'label': 'Packages'
-    'submenu': [
-      'label': 'Clipboard History'
-      'submenu': [
-        { 'label': 'Copy', 'command': 'clipboard-history:copy' }
-        { 'label': 'Paste', 'command': 'clipboard-history:paste' }
-      ]
-    ]
-  }
-]
+#task 3 - 1st paste below here!
