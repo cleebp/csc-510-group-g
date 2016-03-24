@@ -21,3 +21,22 @@ enableCopyLine:
   default: true
   title: 'Enable Copy Line'
   description: 'Copy the whole line when no selection'
+
+
+#task 7 - copy 1
+"name": "clipboard-history",
+"author": {
+  "name": "Group G"
+},
+
+#task 7 - copy 3
+editor: null
+forceClear: false
+workspaceView: atom.views.getView(atom.workspace)
+
+# Public methods
+###############################
+initialize: (@history, @editorView) ->
+  super
+  @addClass('clipboard-history')
+  @_handleEvents()

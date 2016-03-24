@@ -25,7 +25,7 @@
   left: 370px;
   opacity: 0.7;
 
-//task 5 - copy 3
+//task 4 - copy 3
 .clipboard-history {
 
   ol.list-group {
@@ -35,3 +35,28 @@
 history: []
 clipboard: null
 subscriptions: null
+
+# task 8 - copy 2
+"dependencies": {
+  "atom-space-pen-views": "^2.0.3"
+}
+
+#task 8 - copy 4
+paste: ->
+  exists = false
+  clipboardItem = atom.clipboard.read()
+
+  # Check OS clipboard
+  if clipboardItem.length > 0 and not @forceClear
+    for item in @history
+      if item.text is clipboardItem
+        exists = true
+    if not exists
+      @_add clipboardItem
+
+  # Attach to view
+  if @history.length > 0
+    @setItems @history.slice(0).reverse()
+  else
+    @setError "There are no items in your clipboard."
+  @_attach()

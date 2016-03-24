@@ -15,3 +15,33 @@ showClearHistoryButton:
 activate: () ->
   @subscriptions = new CompositeDisposable
   @clipboard = new ClipboardHistoryView @history, atom.workspace.getActivePaneItem()
+
+#task 8 - copy 1
+"repository": "https://github.com/cleebp/csc-510-group-g/tree/master/apr1/experiment/base",
+"license": "MIT",
+"engines": {
+  "atom": ">=0.174.0",
+  "jquery": "^2"
+},
+
+#task 8 - copy 3
+copy: ->
+  @storeFocusedElement()
+  @editor = atom.workspace.getActiveTextEditor()
+
+  if @editor
+    selectedText = @editor.getSelectedText()
+    if selectedText.length > 0
+      @_add selectedText
+    else if atom.config.get 'clipboard-history.enableCopyLine'
+      #@editor.buffer.beginTransaction()
+      originalPosition = @editor.getCursorBufferPosition()
+      @editor.selectLinesContainingCursors()
+      selectedText = @editor.getSelectedText()
+      @editor.setCursorBufferPosition originalPosition
+      #@editor.buffer.commitTransaction()
+      if selectedText.length > 0
+        atom.clipboard.metadata = atom.clipboard.metadata || {}
+        atom.clipboard.metadata.fullline = true
+        atom.clipboard.metadata.fullLine = true
+        @_add selectedText, atom.clipboard.metadata

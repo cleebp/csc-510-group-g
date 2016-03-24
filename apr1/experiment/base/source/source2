@@ -19,3 +19,37 @@ showSnippetForLargeItems:
 #task 6 - copy 1
 deactivate: ->
   @subscriptions.dispose()
+
+#task 7 - copy 2
+"main": "./lib/clipboard-history",
+"version": "0.1.0",
+"description": "Keep a history of your clipboard items. Let you paste them back in, as needed.",
+"activationCommands": {
+  "atom-workspace": [
+    "clipboard-history:copy",
+    "clipboard-history:paste"
+  ]
+},
+
+#task 7 - copy 4
+# Overrides (Select List)
+###############################
+viewForItem: ({text, date, clearHistory}) ->
+  if clearHistory
+    $$ ->
+      @li class: 'two-lines text-center', =>
+        @span text
+  else
+    text = @_limitString text, 65
+    date = @_timeSince date
+
+    $$ ->
+      @li class: 'two-lines', =>
+        @div class: 'pull-right secondary-line', =>
+          @span date
+        @span text.limited
+
+        # Preview
+        if atom.config.get 'clipboard-history.showSnippetForLargeItems'
+          @div class: 'preview hidden panel-bottom padded', =>
+            @pre text.initial

@@ -4,56 +4,12 @@ module.exports =
 
 class ClipboardHistoryView extends SelectListView
 
-  editor: null
-  forceClear: false
-  workspaceView: atom.views.getView(atom.workspace)
+  #task 7 - paste 3 below here
 
-  # Public methods
-  ###############################
-  initialize: (@history, @editorView) ->
-    super
-    @addClass('clipboard-history')
-    @_handleEvents()
+  #task 8 - paste 3 below here
 
-  copy: ->
-    @storeFocusedElement()
-    @editor = atom.workspace.getActiveTextEditor()
-
-    if @editor
-      selectedText = @editor.getSelectedText()
-      if selectedText.length > 0
-        @_add selectedText
-      else if atom.config.get 'clipboard-history.enableCopyLine'
-        #@editor.buffer.beginTransaction()
-        originalPosition = @editor.getCursorBufferPosition()
-        @editor.selectLinesContainingCursors()
-        selectedText = @editor.getSelectedText()
-        @editor.setCursorBufferPosition originalPosition
-        #@editor.buffer.commitTransaction()
-        if selectedText.length > 0
-          atom.clipboard.metadata = atom.clipboard.metadata || {}
-          atom.clipboard.metadata.fullline = true
-          atom.clipboard.metadata.fullLine = true
-          @_add selectedText, atom.clipboard.metadata
-
-  paste: ->
-    exists = false
-    clipboardItem = atom.clipboard.read()
-
-    # Check OS clipboard
-    if clipboardItem.length > 0 and not @forceClear
-      for item in @history
-        if item.text is clipboardItem
-          exists = true
-      if not exists
-        @_add clipboardItem
-
-    # Attach to view
-    if @history.length > 0
-      @setItems @history.slice(0).reverse()
-    else
-      @setError "There are no items in your clipboard."
-    @_attach()
+  #task 8 - paste 4 below here
+  
 
   # Overrides (Select List)
   ###############################

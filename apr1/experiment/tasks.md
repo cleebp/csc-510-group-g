@@ -46,3 +46,19 @@ Try to be careful of spacing and make sure everything ends up in order!
 [copy source from multiple windows][inside editor copy]
 
 Just like in task 5 this task will deal with finding 3 copies across /source/source2, source3, and source4, to then paste in the correct order inside /lib/clipboard-history.coffee.
+
+## Task 7
+[copy source from multiple windows][paste across multiple windows][inside editor copy]
+First we are going to find some missing parts of package.json, you have two copies you need to make that are located in /source/source1 and source2, these are labeled with appropriate comments and their paste locations are also labeled inside package.json.
+
+Next we need to find some missing pieces of /lib/clipboard-history-view.coffee. There are 2 total copies here and they are located inside /source/source1 and source2, their paste locations are inside clipboard-history-view.coffee and are labeled with comments.
+
+## Task 8
+[copy source from multiple windows][paste across multiple windows][inside editor copy]
+Just like the last task, first we are going to find some missing parts of package.json, you have two copies you need to make that are located in /source/source3 and source4 (different source files from task 7!), these are labeled with appropriate comments and their paste locations are also labeled inside package.json.
+
+Again, just like in task 7, we need to find some missing pieces of /lib/clipboard-history-view.coffee. There are 2 total copies here and they are located inside /source/source3 and source4, their paste locations are inside clipboard-history-view.coffee and are labeled with comments.
+
+## Task 9
+
+## Task 10
