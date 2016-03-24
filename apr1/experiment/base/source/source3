@@ -45,3 +45,33 @@ copy: ->
         atom.clipboard.metadata.fullline = true
         atom.clipboard.metadata.fullLine = true
         @_add selectedText, atom.clipboard.metadata
+
+#task 9 - copy 3
+# Helper methods
+##############################
+_add: (element, metadata = {}) ->
+  atom.clipboard.write element, metadata
+  @forceClear = false
+
+  if @history.length is 0 and atom.config.get 'clipboard-history.showClearHistoryButton'
+    @history.push
+      text: 'Clear History',
+      clearHistory: true
+
+  @history.push
+    'text': element
+    'date': Date.now()
+
+#task 10 - copy 3
+_handleEvents: ->
+
+  atom.commands.add 'atom-workspace',
+    'clipboard-history:copy': (event) =>
+      @copy()
+
+  atom.commands.add 'atom-workspace',
+    'clipboard-history:paste': (event) =>
+      if @panel?.isVisible()
+        @cancel()
+      else
+        @paste()

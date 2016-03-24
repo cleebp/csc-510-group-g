@@ -60,5 +60,9 @@ Just like the last task, first we are going to find some missing parts of packag
 Again, just like in task 7, we need to find some missing pieces of /lib/clipboard-history-view.coffee. There are 2 total copies here and they are located inside /source/source3 and source4, their paste locations are inside clipboard-history-view.coffee and are labeled with comments.
 
 ## Task 9
+[copy source from multiple windows][inside editor copy]
+Oh no! It looks like all of /lib/clipboard-history-view.coffee has been broken apart and split between /source/source1 -> source4. You know the deal, you are looking for 4 copies spread out between these four source directories, make sure you copy them and paste them in the correct locations (look for the comments for task 9).
 
 ## Task 10
+[copy source from multiple windows][inside editor copy]
+Okay you know the deal, just like in task 9 /lib/clipboard-history-view.coffee has been broken apart and split between /source/source1 -> source4. You are looking for 4 copies spread out between these four source directories, make sure you copy them and paste them in the correct locations (look for the comments for task 10).

@@ -53,3 +53,11 @@ viewForItem: ({text, date, clearHistory}) ->
         if atom.config.get 'clipboard-history.showSnippetForLargeItems'
           @div class: 'preview hidden panel-bottom padded', =>
             @pre text.initial
+
+#task 9 - copy 2
+getFilterKey: ->
+  'text'
+
+#task 10 - copy 2
+cancelled: ->
+  @panel?.hide()

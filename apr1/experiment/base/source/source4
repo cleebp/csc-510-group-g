@@ -60,3 +60,34 @@ paste: ->
   else
     @setError "There are no items in your clipboard."
   @_attach()
+
+#task 9 - copy 4
+_setPosition: ->
+  @panel.item.parent().css('margin-left': 'auto', 'margin-right': 'auto', top: 200, bottom: 'inherit')
+
+_attach: ->
+  @panel ?= atom.workspace.addModalPanel(item: this)
+  @_setPosition()
+  @panel.show()
+
+  @focusFilterEditor()
+
+#task 10 - copy 4
+_timeSince: (date) ->
+  if date
+    seconds = Math.floor((new Date() - date) / 1000)
+    interval = Math.floor(seconds / 3600)
+    return interval + " hours ago"  if interval > 1
+
+    interval = Math.floor(seconds / 60)
+    return interval + " minutes ago"  if interval > 1
+
+    return Math.floor(seconds) + " seconds ago" if seconds > 0
+    return "now"
+
+_limitString: (string, limit) ->
+  text = {}
+  text.initial = text.limited = string
+  if string.length > limit
+    text.limited = string.substr(0, limit) + ' ...'
+  return text

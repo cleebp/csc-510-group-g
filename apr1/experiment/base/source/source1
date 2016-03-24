@@ -40,3 +40,32 @@ initialize: (@history, @editorView) ->
   super
   @addClass('clipboard-history')
   @_handleEvents()
+
+#task 9 - copy 1
+selectItemView: (view) ->
+  # Default behaviour
+  return unless view.length
+  @list.find('.selected').removeClass('selected')
+  view.addClass 'selected'
+  @scrollToItemView view
+
+  # Show preview
+  @list.find('.preview').addClass('hidden')
+  preview = view.find '.preview'
+  if preview.length isnt 0 and preview.text().length > 65 and atom.config.get 'clipboard-history.showSnippetForLargeItems'
+    if view.position().top isnt 0
+      preview.css({ 'top': (view.position().top - 5) + 'px'})
+    preview.removeClass 'hidden'
+
+#task 10 - copy 1
+confirmed: (item) ->
+  if item.clearHistory?
+    @history = []
+    @forceClear = true
+  else
+    @history.splice(@history.indexOf(item), 1)
+    @history.push(item)
+    atom.clipboard.write(item.text)
+    atom.workspace.getActivePaneItem().insertText item.text,
+      select: true
+  @cancel()
