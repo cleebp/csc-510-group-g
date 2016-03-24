@@ -1,0 +1,5 @@
+root = tk.Tk()
+
+root.withdraw()
+prev = ""
+, 2016-03-13 21:30:25, [u'iTerm', u'1. python telem-mac.py -otest.txt (zsh)']

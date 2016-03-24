@@ -25,3 +25,96 @@ pastedText = item.text + ', ' + getDate() + ', atom/' + atom.workspace.getActive
 , 2016-02-24 14:23:10, [u'Safari', u'Builder Kit Instructions | Structure IoT Developer Platform']
 https://www.getstructure.io/get-the-kit/instructions, 2016-02-24 14:23:10, [u'Safari', u'Builder Kit Instructions | Structure IoT Developer Platform']
 https://www.getstructure.io/get-the-kit?utm_campaign=Builder%20Kit&utm_medium=social&utm_source=twitter, 2016-02-24 14:30:15, [u'Safari', u'Get a Free Builder Kit | Structure IoT Developer Kit']
+integrations, 2016-03-03 15:34:16, [u'iTerm', u'1. python telem.py (zsh)']
+really?, 2016-03-03 15:34:48, [u'Atom', u'untitled \u2014 atom://config']
+yes!, 2016-03-03 15:34:51, [u'Atom', u'untitled \u2014 atom://config']
+{
+  "name": "clipit-cmd",
+  "author": {
+    "name": "Brian Clee",
+    "url": "https://github.com/cleebp/csc-510-group-g/tree/master/mar1/clipit-cmd"
+  },
+  "main": "./lib/clipit-cmd",
+  "version": "0.1.0",
+  "description": "Clipit variation with command integrations for navigation.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "clipit-cmd:copy",
+      "clipit-cmd:cut",
+      "clipit-cmd:paste",
+      "clipit-cmd:indexNext",
+      "clipit-cmd:indexPrevious",
+      "clipit-cmd:show"
+    ]
+  },
+  "repository": "https://github.com/cleebp/csc-510-group-g/tree/master/mar1/clipit-cmd",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "fs": "*"
+  }
+}, 2016-03-03 15:34:54, [u'Atom', u'untitled \u2014 atom://config']
+, 2016-03-03 15:36:06, [u'Atom', u'untitled \u2014 atom://config']
+{
+  "name": "clipit-cmd",
+  "author": {
+    "name": "Brian Clee",
+    "url": "https://github.com/cleebp/csc-510-group-g/tree/master/mar1/clipit-cmd"
+  },
+  "main": "./lib/clipit-cmd",
+  "version": "0.1.0",
+  "description": "Clipit variation with command integrations for navigation.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "clipit-cmd:copy",
+      "clipit-cmd:cut",
+      "clipit-cmd:paste",
+      "clipit-cmd:indexNext",
+      "clipit-cmd:indexPrevious",
+      "clipit-cmd:show"
+    ]
+  },
+  "repository": "https://github.com/cleebp/csc-510-group-g/tree/master/mar1/clipit-cmd",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "fs": "*"
+  }
+}, 2016-03-03 15:36:06, [u'Atom', u'untitled \u2014 atom://config']
+, 2016-03-03 15:37:33, [u'Atom', u'untitled \u2014 atom://config']
+sakd, 2016-03-03 15:37:33, [u'Atom', u'untitled \u2014 atom://config']
+, 2016-03-03 15:37:40, [u'Atom', u'untitled \u2014 atom://config']
+sakd, 2016-03-03 15:37:40, [u'Atom', u'untitled \u2014 atom://config']
+, 2016-03-03 15:38:07, [u'Atom', u'untitled \u2014 atom://config']
+aslksakd, 2016-03-03 15:38:07, [u'Atom', u'untitled \u2014 atom://config']
+
+aslksakd
+sadaso, 2016-03-03 15:39:11, [u'Atom', u'untitled \u2014 atom://config']
+, 2016-03-03 15:40:12, [u'Atom', u'untitled \u2014 atom://config']
+soidhosad
+
+sadk
+sakd
+aslksakd
+sadaso
+
+
+aslksakd
+sadaso
+sakd
+sakdsakdsakdaslksakdaslksakd
+
+, 2016-03-03 15:40:12, [u'Atom', u'untitled \u2014 atom://config']
+aslksakd, 2016-03-03 15:40:31, [u'Atom', u'untitled \u2014 atom://config']
+
+aslksakd, 2016-03-03 15:42:56, [u'Atom', u'untitled \u2014 atom://config']

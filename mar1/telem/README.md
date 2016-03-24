@@ -4,9 +4,10 @@ Data is collected whenever items are copied onto the system clipboard, and when 
 
 ## Usage
 No additional commands/programs are required to log data with regard to pastes.
-In order to log copy/cut actions, `telem.py` needs to be executed with the following command:
+In order to log copy/cut actions, `telem-<os>.py` needs to be executed with the following command:
 
 On Mac:`python telem-mac.py -o <outputfilename>`
+On Windows: `python telem-windows.py -o <outputfilename>`
 
 The program requires the `pyobjc` package to be installed in order to execute successfully.
 
