@@ -56,7 +56,7 @@ class MyPanel1View extends SelectListView
       if selectedText.length > 0
         @_add selectedText
         #display the item on the pane
-        if @history.length > 0
+        if @history.length >= 0 #I made change
           @setItems @history.slice(0).reverse()
           @_attach()
       else if atom.config.get 'my-panel1.enableCopyLine'
@@ -72,7 +72,7 @@ class MyPanel1View extends SelectListView
           atom.clipboard.metadata.fullLine = true
           @_add selectedText, atom.clipboard.metadata
           #display the item on the pane
-          if @history.length > 0
+          if @history.length >= 0 # I made change
             @setItems @history.slice(0).reverse()
             @_attach()
 
@@ -82,7 +82,7 @@ class MyPanel1View extends SelectListView
     clipboardItem = atom.clipboard.read()
 
     # Check OS clipboard
-    if clipboardItem.length > 0 and not @forceClear
+    if clipboardItem.length > 0 # and not @forceClear --- I made change
       for item in @history
         if item.text is clipboardItem
           exists = true
