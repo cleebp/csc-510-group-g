@@ -1,0 +1,354 @@
+# task 1 - copy 1
+'.platform-win32, .platform-win32 .atom-workspace':
+  'ctrl-c':       'clipboard-history:copy'
+  'ctrl-shift-v': 'clipboard-history:paste', 2016-03-27 23:08:24, [u'Atom', u'source1 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+# task 1 - copy 2
+'.platform-linux, .platform-linux .atom-workspace':
+  'ctrl-c':       'clipboard-history:copy'
+  'ctrl-shift-v': 'clipboard-history:paste', 2016-03-27 23:10:28, [u'Atom', u'source2 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 2 - copy 1
+{
+  'label': 'Copy',
+  'command': 'clipboard-history:copy'
+},, 2016-03-27 23:11:24, [u'Atom', u'source1 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+task 2 - copy 4
+{
+  'label': 'Separator',
+  'command': '-'
+}, 2016-03-27 23:11:36, [u'Atom', u'source2 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 2 - copy 3
+{
+  'label': 'Paste History',
+  'command': 'clipboard-history:paste'
+},, 2016-03-27 23:11:47, [u'Atom', u'source3 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 2 - copy 2
+{
+  'label': 'Paste',
+  'command': 'core:paste'
+},, 2016-03-27 23:11:54, [u'Atom', u'source4 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 2 - copy 1
+{
+  'label': 'Copy',
+  'command': 'clipboard-history:copy'
+},, 2016-03-27 23:12:22, [u'Atom', u'clipboard-history.cson \u2014 menus \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 2 - copy 2
+{
+  'label': 'Paste',
+  'command': 'core:paste'
+},, 2016-03-27 23:12:40, [u'Atom', u'clipboard-history.cson \u2014 menus \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 2 - copy 3
+{
+  'label': 'Paste History',
+  'command': 'clipboard-history:paste'
+},, 2016-03-27 23:12:53, [u'Atom', u'clipboard-history.cson \u2014 menus \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+task 2 - copy 4
+{
+  'label': 'Separator',
+  'command': '-'
+}, 2016-03-27 23:13:03, [u'Atom', u'clipboard-history.cson \u2014 menus \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 3 - copy 1
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Clipboard History'
+      #task 3 - 2nd paste below here!
+
+    ]
+  }
+], 2016-03-27 23:13:48, [u'firefox', u'Mozilla Firefox']
+, 2016-03-27 23:14:21, [u'Atom', u'clipboard-history.cson \u2014 menus \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 3 - copy 1
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Clipboard History'
+      #task 3 - 2nd paste below here!
+
+    ]
+  }
+], 2016-03-27 23:14:21, [u'Atom', u'clipboard-history.cson \u2014 menus \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+/task 4 - copy 1
+      pre {
+        width: 330px;
+        height: auto;
+        max-height: 400px;
+        font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+        font-size: 9px;
+        border-radius: 2px;
+        overflow-x: scroll;
+      }
+    }
+  }
+}, 2016-03-27 23:15:09, [u'Atom', u'source4 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+//task 4 - copy 2
+.preview {
+  position: absolute;
+  top: 42px;
+  left: 370px;
+  opacity: 0.7;, 2016-03-27 23:15:19, [u'Atom', u'source4 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+//task 4 - copy 3
+.clipboard-history {
+
+  ol.list-group {
+    position: static;, 2016-03-27 23:15:34, [u'Atom', u'source4 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+//task 4 - copy 2
+.preview {
+  position: absolute;
+  top: 42px;
+  left: 370px;
+  opacity: 0.7;, 2016-03-27 23:15:59, [u'Atom', u'clipboard-history.less \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+/task 4 - copy 1
+      pre {
+        width: 330px;
+        height: auto;
+        max-height: 400px;
+        font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+        font-size: 9px;
+        border-radius: 2px;
+        overflow-x: scroll;
+      }
+    }
+  }
+}, 2016-03-27 23:16:07, [u'Atom', u'clipboard-history.less \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 5 - copy 3
+enableCopyLine:
+  type: 'boolean'
+  default: true
+  title: 'Enable Copy Line'
+  description: 'Copy the whole line when no selection', 2016-03-27 23:16:57, [u'Atom', u'source1 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 5 - copy 1
+showSnippetForLargeItems:
+  type: 'boolean'
+  default: true
+  title: 'Show Snippet'
+  description: 'When a long clipboard item, preview it a separate tooltip', 2016-03-27 23:17:06, [u'Atom', u'source2 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 5 - copy 2
+showClearHistoryButton:
+  type: 'boolean'
+  default: true
+  title: 'Show Clear History'
+  description: 'Display a button to clear your clipboard\'s history', 2016-03-27 23:17:16, [u'Atom', u'source3 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 5 - copy 1
+showSnippetForLargeItems:
+  type: 'boolean'
+  default: true
+  title: 'Show Snippet'
+  description: 'When a long clipboard item, preview it a separate tooltip', 2016-03-27 23:17:40, [u'Atom', u'clipboard-history.coffee \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 5 - copy 2
+showClearHistoryButton:
+  type: 'boolean'
+  default: true
+  title: 'Show Clear History'
+  description: 'Display a button to clear your clipboard\'s history', 2016-03-27 23:17:49, [u'Atom', u'clipboard-history.coffee \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 5 - copy 3
+enableCopyLine:
+  type: 'boolean'
+  default: true
+  title: 'Enable Copy Line'
+  description: 'Copy the whole line when no selection', 2016-03-27 23:17:56, [u'Atom', u'clipboard-history.coffee \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 6 - copy 1
+deactivate: ->
+  @subscriptions.dispose(), 2016-03-27 23:18:32, [u'Atom', u'source2 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 6 - copy 2
+activate: () ->
+  @subscriptions = new CompositeDisposable
+  @clipboard = new ClipboardHistoryView @history, atom.workspace.getActivePaneItem(), 2016-03-27 23:18:46, [u'Atom', u'source3 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 6 - copy 3
+history: []
+clipboard: null
+subscriptions: null, 2016-03-27 23:18:55, [u'Atom', u'source4 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 6 - copy 2
+activate: () ->
+  @subscriptions = new CompositeDisposable
+  @clipboard = new ClipboardHistoryView @history, atom.workspace.getActivePaneItem(), 2016-03-27 23:19:17, [u'Atom', u'clipboard-history.coffee \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 6 - copy 1
+deactivate: ->
+  @subscriptions.dispose(), 2016-03-27 23:19:22, [u'Atom', u'clipboard-history.coffee \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 7 - copy 1
+"name": "clipboard-history",
+"author": {
+  "name": "Group G"
+},, 2016-03-27 23:19:57, [u'Atom', u'source1 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 7 - copy 2
+"main": "./lib/clipboard-history",
+"version": "0.1.0",
+"description": "Keep a history of your clipboard items. Let you paste them back in, as needed.",
+"activationCommands": {
+  "atom-workspace": [
+    "clipboard-history:copy",
+    "clipboard-history:paste"
+  ]
+},, 2016-03-27 23:20:07, [u'Atom', u'source2 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 7 - copy 1
+"name": "clipboard-history",
+"author": {
+  "name": "Group G"
+},, 2016-03-27 23:20:22, [u'Atom', u'package.json \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 7 - copy 2
+"main": "./lib/clipboard-history",
+"version": "0.1.0",
+"description": "Keep a history of your clipboard items. Let you paste them back in, as needed.",
+"activationCommands": {
+  "atom-workspace": [
+    "clipboard-history:copy",
+    "clipboard-history:paste"
+  ]
+},, 2016-03-27 23:20:31, [u'Atom', u'package.json \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 7 - copy 3
+editor: null
+forceClear: false
+workspaceView: atom.views.getView(atom.workspace), 2016-03-27 23:22:04, [u'Atom', u'source1 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 7 - copy 4
+# Overrides (Select List)
+###############################
+viewForItem: ({text, date, clearHistory}) ->
+  if clearHistory
+    $$ ->
+      @li class: 'two-lines text-center', =>
+        @span text
+  else
+    text = @_limitString text, 65
+    date = @_timeSince date
+
+    $$ ->
+      @li class: 'two-lines', =>
+        @div class: 'pull-right secondary-line', =>
+          @span date
+        @span text.limited
+
+        # Preview
+        if atom.config.get 'clipboard-history.showSnippetForLargeItems'
+          @div class: 'preview hidden panel-bottom padded', =>
+            @pre text.initial, 2016-03-27 23:22:15, [u'Atom', u'source2 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+, 2016-03-27 23:22:26, [u'Atom', u'clipboard-history-view.coffee \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 7 - copy 3
+editor: null
+forceClear: false
+workspaceView: atom.views.getView(atom.workspace), 2016-03-27 23:22:26, [u'Atom', u'clipboard-history-view.coffee \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 7 - copy 4
+# Overrides (Select List)
+###############################
+viewForItem: ({text, date, clearHistory}) ->
+  if clearHistory
+    $$ ->
+      @li class: 'two-lines text-center', =>
+        @span text
+  else
+    text = @_limitString text, 65
+    date = @_timeSince date
+
+    $$ ->
+      @li class: 'two-lines', =>
+        @div class: 'pull-right secondary-line', =>
+          @span date
+        @span text.limited
+
+        # Preview
+        if atom.config.get 'clipboard-history.showSnippetForLargeItems'
+          @div class: 'preview hidden panel-bottom padded', =>
+            @pre text.initial, 2016-03-27 23:22:35, [u'Atom', u'clipboard-history-view.coffee \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 8 - copy 1
+"repository": "https://github.com/cleebp/csc-510-group-g/tree/master/apr1/experiment/base",
+"license": "MIT",
+"engines": {
+  "atom": ">=0.174.0",
+  "jquery": "^2"
+},, 2016-03-27 23:23:19, [u'Atom', u'source3 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 8 - copy 3
+copy: ->
+  @storeFocusedElement()
+  @editor = atom.workspace.getActiveTextEditor()
+
+  if @editor
+    selectedText = @editor.getSelectedText()
+    if selectedText.length > 0
+      @_add selectedText
+    else if atom.config.get 'clipboard-history.enableCopyLine'
+      #@editor.buffer.beginTransaction()
+      originalPosition = @editor.getCursorBufferPosition()
+      @editor.selectLinesContainingCursors()
+      selectedText = @editor.getSelectedText()
+      @editor.setCursorBufferPosition originalPosition
+      #@editor.buffer.commitTransaction()
+      if selectedText.length > 0
+        atom.clipboard.metadata = atom.clipboard.metadata || {}
+        atom.clipboard.metadata.fullline = true
+        atom.clipboard.metadata.fullLine = true
+        @_add selectedText, atom.clipboard.metadata, 2016-03-27 23:23:29, [u'Atom', u'source3 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+# task 8 - copy 2
+"dependencies": {
+  "atom-space-pen-views": "^2.0.3"
+}, 2016-03-27 23:23:39, [u'Atom', u'source4 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 8 - copy 4
+paste: ->
+  exists = false
+  clipboardItem = atom.clipboard.read()
+
+  # Check OS clipboard
+  if clipboardItem.length > 0 and not @forceClear
+    for item in @history
+      if item.text is clipboardItem
+        exists = true
+    if not exists
+      @_add clipboardItem
+
+  # Attach to view
+  if @history.length > 0
+    @setItems @history.slice(0).reverse()
+  else
+    @setError "There are no items in your clipboard."
+  @_attach(), 2016-03-27 23:23:47, [u'Atom', u'source4 \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 8 - copy 1
+"repository": "https://github.com/cleebp/csc-510-group-g/tree/master/apr1/experiment/base",
+"license": "MIT",
+"engines": {
+  "atom": ">=0.174.0",
+  "jquery": "^2"
+},, 2016-03-27 23:24:06, [u'Atom', u'package.json \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+# task 8 - copy 2
+"dependencies": {
+  "atom-space-pen-views": "^2.0.3"
+}, 2016-03-27 23:24:11, [u'Atom', u'package.json \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+, 2016-03-27 23:24:35, [u'Atom', u'clipboard-history-view.coffee \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 8 - copy 3
+copy: ->
+  @storeFocusedElement()
+  @editor = atom.workspace.getActiveTextEditor()
+
+  if @editor
+    selectedText = @editor.getSelectedText()
+    if selectedText.length > 0
+      @_add selectedText
+    else if atom.config.get 'clipboard-history.enableCopyLine'
+      #@editor.buffer.beginTransaction()
+      originalPosition = @editor.getCursorBufferPosition()
+      @editor.selectLinesContainingCursors()
+      selectedText = @editor.getSelectedText()
+      @editor.setCursorBufferPosition originalPosition
+      #@editor.buffer.commitTransaction()
+      if selectedText.length > 0
+        atom.clipboard.metadata = atom.clipboard.metadata || {}
+        atom.clipboard.metadata.fullline = true
+        atom.clipboard.metadata.fullLine = true
+        @_add selectedText, atom.clipboard.metadata, 2016-03-27 23:24:35, [u'Atom', u'clipboard-history-view.coffee \u2014 /Users/arjun/Experiments/experiment - clipit-order']
+#task 8 - copy 4
+paste: ->
+  exists = false
+  clipboardItem = atom.clipboard.read()
+
+  # Check OS clipboard
+  if clipboardItem.length > 0 and not @forceClear
+    for item in @history
+      if item.text is clipboardItem
+        exists = true
+    if not exists
+      @_add clipboardItem
+
+  # Attach to view
+  if @history.length > 0
+    @setItems @history.slice(0).reverse()
+  else
+    @setError "There are no items in your clipboard."
+  @_attach(), 2016-03-27 23:24:41, [u'Atom', u'clipboard-history-view.coffee \u2014 /Users/arjun/Experiments/experiment - clipit-order']
