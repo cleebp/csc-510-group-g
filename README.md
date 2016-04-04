@@ -19,6 +19,10 @@ Here are some quick links to navigate through our repo:
 - [Feature #3](https://github.com/cleebp/csc-510-group-g/tree/master/mar1/clipit-panel) `clipit-panel`
 - [Telemetry](https://github.com/cleebp/csc-510-group-g/tree/master/mar1/telem) `telem`
 
-Apr1 Deliverable
+[Apr1 Deliverable: Testing and Final Presentation/Report](https://github.com/cleebp/csc-510-group-g/tree/master/apr1)
+- [Experiment](https://github.com/cleebp/csc-510-group-g/tree/master/apr1/experiment)
+- [Data](https://github.com/cleebp/csc-510-group-g/tree/master/apr1/experiment/data)
+- [Presentation Slides]()
+- [Final Report]()
 
 May1 Deliverable
