@@ -22,7 +22,7 @@ Here are some quick links to navigate through our repo:
 [Apr1 Deliverable: Testing and Final Presentation/Report](https://github.com/cleebp/csc-510-group-g/tree/master/apr1)
 - [Experiment](https://github.com/cleebp/csc-510-group-g/tree/master/apr1/experiment)
 - [Data](https://github.com/cleebp/csc-510-group-g/tree/master/apr1/experiment/data)
-- [Presentation Slides]()
-- [Final Report]()
+- [Presentation Slides](https://github.com/cleebp/csc-510-group-g/blob/master/apr1/presentation/presentation.pdf)
+- [Final Report](https://github.com/cleebp/csc-510-group-g/blob/master/apr1/report/report.pdf)
 
 May1 Deliverable
