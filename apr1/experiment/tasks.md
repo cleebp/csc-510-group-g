@@ -1,8 +1,6 @@
 # Tasks
 
-Work on intro here.
-
-Tell them to always use the plugin they are given as much as possible, and also to make sure they copy the comment accompanying each copy as well (it will tell us in our logs where they are at progress wise).
+This page contains all of the tasks which were printed out and given to participants during our experiments. Below the task number are tags in brackets that summarize the goals of the tasks into categories.
 
 ## Task 1
 [copy source from multiple windows][inside editor copy]
@@ -49,20 +47,24 @@ Just like in task 5 this task will deal with finding 3 copies across /source/sou
 
 ## Task 7
 [copy source from multiple windows][paste across multiple windows][inside editor copy]
+
 First we are going to find some missing parts of package.json, you have two copies you need to make that are located in /source/source1 and source2, these are labeled with appropriate comments and their paste locations are also labeled inside package.json.
 
 Next we need to find some missing pieces of /lib/clipboard-history-view.coffee. There are 2 total copies here and they are located inside /source/source1 and source2, their paste locations are inside clipboard-history-view.coffee and are labeled with comments.
 
 ## Task 8
 [copy source from multiple windows][paste across multiple windows][inside editor copy]
+
 Just like the last task, first we are going to find some missing parts of package.json, you have two copies you need to make that are located in /source/source3 and source4 (different source files from task 7!), these are labeled with appropriate comments and their paste locations are also labeled inside package.json.
 
 Again, just like in task 7, we need to find some missing pieces of /lib/clipboard-history-view.coffee. There are 2 total copies here and they are located inside /source/source3 and source4, their paste locations are inside clipboard-history-view.coffee and are labeled with comments.
 
 ## Task 9
 [copy source from multiple windows][inside editor copy]
+
 Oh no! It looks like all of /lib/clipboard-history-view.coffee has been broken apart and split between /source/source1 -> source4. You know the deal, you are looking for 4 copies spread out between these four source directories, make sure you copy them and paste them in the correct locations (look for the comments for task 9).
 
 ## Task 10
 [copy source from multiple windows][inside editor copy]
+
 Okay you know the deal, just like in task 9 /lib/clipboard-history-view.coffee has been broken apart and split between /source/source1 -> source4. You are looking for 4 copies spread out between these four source directories, make sure you copy them and paste them in the correct locations (look for the comments for task 10).
