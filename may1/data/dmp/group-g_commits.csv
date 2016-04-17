@@ -1,0 +1,270 @@
+1,1460574285,033ccd2cd5bcb42c9ed746f0e65845e4230c1cbf,group-g/user6,"names r hard"
+2,1460574155,8f7a6ce0b86a8d1c18e6de7b1a1746c7a1718ef2,group-g/user6,"initial may commit
+
+architecture! organization! yay!"
+3,1459975358,26fd1ea8b7f7eecc23b029df35d31ac80f1e8c50,group-g/user6,"updated presentation
+
+most recent version as of 4:42 on 4/6"
+4,1459974163,0373f49f6074ef77baa432fc26af11db2518ffef,group-g/user6,"uploaded 'final' report files from sharelatex
+
+hah “final”"
+5,1459871640,0b47606094988d902850cae6b6707f61a9cef0bf,group-g/user6,"edited tasks.md
+
+There was some placeholder text still hanging around so I cut it loose…"
+6,1459788419,228dd56fc3c6dea79ff9907bf543f9e94963f0ef,group-g/user6,"fixing some links
+
+herp derp trees blobs"
+7,1459788058,d66bb2f5ffd3b102b6b5f1b286c5e1e0b3476d10,group-g/user6,"apr7 repo organization and readme creation
+
+added a ton of necessary readmes
+
+tl;dr: stuff is (mostly) documented now"
+8,1459186206,d31cd7df2798218012d3babb4092b812f4fd1521,group-g/user4,"Update my-panel1-view.coffee"
+9,1459183681,08ea0e3583d55eacbe06a138e2b7f0a52af8ed0a,group-g/user7,"Added some telemetry data to apr1/Data"
+10,1459092410,ed9b458cad9a6f6a85e476f8747e24b75a2617cc,group-g/user7,"Delete unnecessary file"
+11,1458845991,1f86f51f811de380f6cd06eb5e12434622faa19d,group-g/user6,"added tasks 9 and 10
+
+tasks complete"
+12,1458844890,442890cd7aca132b4212a1cf6c70da0f797181a7,group-g/user6,"added tasks 7 and 8"
+13,1458788311,c1537253b8ca9f986f9a1fe8b05730c467140017,group-g/user7,"Update README.md
+
+Add information about installing dependencies for telem-windows.py"
+14,1458788141,676d605a13d6276f769977eca9cdde27c879c1c0,group-g/user7,"Delete clipit.txt
+
+Remove unnecessary log file."
+15,1458787986,2dd7b388496c43578cb510a88edbc6268438d166,group-g/user7,"Merge pull request #68 from cleebp/telemetry
+
+Telemetry"
+16,1458787833,df8761aeb4c88560a6eb226f30f748c2db428dcf,group-g/user7,"Merge branch 'telemetry' of https://github.com/cleebp/csc-510-group-g into telemetry"
+17,1458787786,df765bf2f774c59ba9e932769031ef7de5905357,group-g/user7,"Fixed windows clipboard"
+18,1458760356,2a20e2274b6e1138e0ca9c9259dbd4cf902a429e,group-g/user6,"added task 5 and 6"
+19,1458759913,7bf5d541b3a6022f1abedc6a9dc65661c84d234d,group-g/user8,"fix the bug of history"
+20,1458759011,e33c46ef95620228c10fec741c688f832badcfc8,group-g/user6,"task 4 added
+
+now just have to make tasks for lib"
+21,1458746355,31ea4c4199bc78d283bebf63617c008e17d6b07d,group-g/user6,"task 2 and 3 added"
+22,1458744758,f2976a13ecffbc856b699144a12065b3b378493e,group-g/user6,"first task completed
+
+test commit to see how this looks on master"
+23,1458694781,bce512724c9fa9423bea72d86aedf223589d2e35,group-g/user6,"apr1 initial commit
+
+establishing april directories and setting up initial experiment
+directory"
+24,1457920819,3cc568a49ab9229af3dc8ace4b1e955b6edb5348,group-g/user7,"Update README.md"
+25,1457920414,f6e0599d1a2eeefc9ea8d15b24322bff568e8b18,group-g/user7,"Windows telemetry added"
+26,1457919219,2cfde1a8b293bab8130cf7f400e703a1b1e588c8,group-g/user7,"Update README.md"
+27,1457919129,4d8afb5b04e8212aa3e19e6c24182c29719c8991,group-g/user7,"Update telemetry to work with custom file names."
+28,1457027175,c77faec4829faaa89ea4e17f0820a9ab5073d472,group-g/user7,"fix merge conflicts"
+29,1457027092,eaec277c670cbf5d618b8b5aaa8d1e0ffc6a5d03,group-g/user7,"Update README.md"
+30,1457026958,696beb7331ea3dde0e36b7539c028ec426017f27,group-g/user7,"Update readme for telemetry"
+31,1456951475,252a63f1058408e751ec0b609103bf724591e90a,group-g/user6,"readme etc
+
+github has issues with existance"
+32,1456947910,94a4953b49b5a5980813ad0197083c22a0611ea3,group-g/user7,"Fix indentation"
+33,1456947125,f5eebb703cff3d9829d7caf3203b4dfc088f7ecf,group-g/user8,"Update README.md"
+34,1456946530,d60104243aca585a65a159b9da2285f36affd2d3,group-g/user6,"updated readme's and got rid of teller package
+
+housekeeping"
+35,1456946190,7c3b671c9a90c41c68c01e692f553106051ffe60,group-g/user7,"Merge pull request #50 from cleebp/telemetry
+
+Adding telemtry"
+36,1456945976,7ce3d36c2619af15fc63a28df7fa79f916a5eea9,group-g/user6,"renamed a thingy
+
+thingies are descriptive"
+37,1456945833,978a2fefa30f328f86a1f3351f1e7c4877d0aa73,group-g/user6,"commented out data persistence bug
+
+wooooooo"
+38,1456945599,8bc56864c5b44ddaa52cd34f07a08b2cd83e20ff,group-g/user4,"Update README.md"
+39,1456945496,d8ce8b386264c6f2e8b54c6dc394c1dd66144df6,group-g/user4,"Added files via upload"
+40,1456945216,b6009b7c386d82d9bcb5f341f9081928d5108da2,group-g/user6,"formatted readme's
+
+went through and formatted the readme’s of the packages so they were
+all using the same basic style."
+41,1456931277,1617e311c99b2716c3c8cace45f8277cb085100d,group-g/user4,"Update README.md"
+42,1456931249,7d36068be2add466e0c8e148315e69fcd53982cb,group-g/user4,"Update README.md"
+43,1456890659,e900d8dfb58d1b77a4a3e3ac9b345c259a66b957,group-g/user7,"Fix telemetry bug where clicks weren't getting logged with clipit-panel"
+44,1456867020,8e7748598a5075b6bf0e8d408ff35fec54547d53,group-g/user7,"Merge branch 'master' of https://github.com/cleebp/csc-510-group-g into telemetry"
+45,1456854670,db90f100d5704b5cf2a5976087023a9985756969,group-g/user6,"fixed display bug after selecting a panel item
+
+tiny hack to force a redisplay whenever an item is selected"
+46,1456853599,fc0d77d868877357c937c11626b54c5a282b6eaf,group-g/user6,"panel updates display after copy, paste cmd also pastes most recent item
+
+next step is to fix the behavior after clicking on an item having to
+paste again in order to bring back the panel."
+47,1456851375,489ddb902d2188bcbd72ab16a2a54c3fa6f6c5e3,group-g/user6,"added mac integration
+
+technically linux too"
+48,1456808351,0b5b262d22460382d0eb18b337ea6c2a9901932c,group-g/user4,"Update README.md"
+49,1456806595,3f680e2fcef276a6ecd61a735e3f7b76ed8aa322,group-g/user4,"Update README.md"
+50,1456806566,70c2b6b4df0f0ae4b07072da3c57fde02982397a,group-g/user4,"Update README.md"
+51,1456804500,039cf02a2f66c9d0bc845e1578647f8d89afbf4f,group-g/user4,"Update README.md"
+52,1456804389,1620646339d913aa1508d1974be4d7a7d43a6e4e,group-g/user4,"Added files via upload"
+53,1456804291,6e90f93589605ae5eaed6b987943c764a39e5a11,group-g/user4,"Update README.md"
+54,1456803817,88989f88ceb666fdd7763cb5057a2716693feece,group-g/user7,"Telemetry added to clipit-cmd"
+55,1456803435,fc6e752bc71f1fae18b2466a28625ad059d110d1,group-g/user7,"Integrate telemetry with clipit-order"
+56,1456799149,a475a0a66bbeba6534139b285efb8e85973adafa,group-g/user8,"Update README.md"
+57,1456799016,c5b8f3e7314f3f6bfe69c3dce4b93e0e5577f989,group-g/user8,"reorganize the directory"
+58,1456798796,09edc5e575a02290edbc3b8c757337a4f03d6dec,group-g/user8,"update README file for contextual ordering"
+59,1456798636,8e023946a1eeccc130da5bfc0a7c3bdfd965abbc,group-g/user8,"Update README.md"
+60,1456692411,1a08bc6a0445a8d6554c4ed28dd7775cf75eddd0,group-g/user6,"updated mar1 deliverable readme
+
+added an evaluation plan and edited the structure section"
+61,1456691748,4fb9fab1fca8feff9cbddfa129970b9536bae427,group-g/user8,"Update README.md"
+62,1456691062,7ac0f0b38f98853f29f2406f2fa6c974cbc8372c,group-g/user7,"Added log file URL"
+63,1456690990,cbca6a3ce135a4b81960d528193d8820050d0865,group-g/user7,"Merge pull request #42 from cleebp/telemetry
+
+Added log sample"
+64,1456690954,7b6691ba0b30916c9e10da4a9133cbfb39f3eac4,group-g/user7,"Added log sample"
+65,1456690777,d697258f90c4771b3fced572297d509d93654b6a,group-g/user6,"Merge pull request #41 from cleebp/effat
+
+Effat's merge"
+66,1456690627,97f48ff47725baf11a18445ae3ab23ac378c5863,group-g/user6,"Merge branch 'master' into effat
+
+please work"
+67,1456690369,f1ccc5136144fc0cf040e66a5bc928ca3c7eb27e,group-g/user6,"minor main readmes"
+68,1456690109,d85217aa503410fc29d1afa181f6ca3efadbd7fa,group-g/user7,"Update README.md"
+69,1456689750,162557a258f4726e4b6101fadcc473fa988d2c34,group-g/user6,"more directory fixes
+
+dear god please work"
+70,1456689018,3300ab8af28da03e9b966296d421b55d59a12c09,group-g/user7,"Remove duplicate files"
+71,1456688963,29ebfb9456352db4c56a0e546b93dddc85da227b,group-g/user7,"Fix directory structure"
+72,1456688868,65bdef5e1770bb3b2155b0be1b159de7ae3d812b,group-g/user4,"Delete Activator.java"
+73,1456688852,cf744d68bcc9300e5b8912a6f8beae47764c9ac6,group-g/user4,"Delete README.md"
+74,1456688814,fc964e279c34863075b26a5c53bcb3350f6b93e3,group-g/user4,"Delete my-new-panel.rar"
+75,1456688800,9b493cf34996871aed615dfb29730d137ff86559,group-g/user4,"Delete my-package.rar"
+76,1456688782,13f13e014d25fa6fe197a61400da760e23a4adf6,group-g/user4,"Delete org.plugin.helloworld.rar"
+77,1456688742,20a35689a611306fd4ae1db015a35afb6e0073d3,group-g/user4,"Delete org.plugin.helloworld_master.rar"
+78,1456688270,f5527bb773d5ada35e517c52f8e1f1d38a229eca,group-g/user7,"Merge branch 'reachspirit'"
+79,1456688240,3649fcec6543c0da1e75b693016f1657e00aa9cb,group-g/user7,"Fix merge conflicts"
+80,1456688028,f883a9f8cd75aca8066aa5e82d75a7f3866b9b4a,group-g/user4,"Panel feature"
+81,1456680398,0609711b684f46e050cbf7477921b725733bbf63,group-g/user8,"Finished integrating all sorting functions"
+82,1456637216,dd893b87ea8da42b0b424e7eebbf987a8cf71b9c,group-g/user8,"framework for trigering sorting functions added, unnecessary documents removed"
+83,1456611246,0709d297a84a9a7d82c8aa57769a81e90dbee322,group-g/user8,"Data persistence added"
+84,1456454578,a99fb82eed194c7579d9492fd683a175cfd6f8c2,group-g/user8,"last update before data persistency and interface"
+85,1456418568,6b0f87fba9f92bf7a613108fc202bcdd1273e5cf,group-g/user6,"fixed some spelling
+
+grammar is hard"
+86,1456418405,22b25837702647cf250ed1de92f3cd773a350c25,group-g/user6,"updated readme's
+
+added a readme for mar1 deliverable"
+87,1456345580,1d06ce47762120773c5e960c71125b097c765544,group-g/user7,"Remove DS_Store"
+88,1456345534,b3f6b553077a669752f97c6ac1a36dbfecb67a62,group-g/user8,"Getting the source of copied items"
+89,1456345519,1dc869972aecf1afbcc56734c673851054fae634,group-g/user7,"Fix gitignore"
+90,1456345333,2793d474c7d763f70a024b4f656394d9e2852668,group-g/user7,"Hopefully fixes unnecessary folders being present"
+91,1456345278,b744dccf69a2fdbdb62b4e2f0a3461109becbea9,group-g/user7,"Remove unused folder"
+92,1456345103,88083b23519618691baedb82bd01d510956330a6,group-g/user7,"Merge pull request #34 from cleebp/telemetry
+
+Adding telemetry."
+93,1456344781,0ba66482dbea522ee3f6a9ab37f6180c7f9e083e,group-g/user6,"fixed path
+
+of course this would happen"
+94,1456344515,894216973c36ca635ce4b0a14c63b28331703333,group-g/user6,"Merge pull request #31 from cleebp/cleebp
+
+Cleebp"
+95,1456344144,c8b426eeee2e3b891e30777f92e4c845a3e57304,group-g/user6,"updated readme and package files
+
+housekeeping before the merge"
+96,1456342944,e8cbe0add71b0e8a042b65a471619f15f10a1388,group-g/user6,"reorg
+
+moving files around and getting rid of the temporary directories of the
+base projects"
+97,1456294467,14afaa90e9b619b16001ce354140508e54ac7ec8,group-g/user8,"Clipboard now counting frequency"
+98,1456289519,bd6acf1d6c819038c5b48662526d612ad3ab68f5,group-g/user7,"Finished paste logging. Output formats should be the same now. Need to discuss where we're going to be saving the logs."
+99,1456255244,3da08bd103c39d6aa57f28a15b06160160b008a8,group-g/user6,"worked on the demo gif"
+100,1456201780,78a24743ae646886a69b3e5e6cf8032b2615e7d3,group-g/user7,"Added basic paste detection. Todo: Proper format, store date"
+101,1456201444,4ab73a1686029685c5de34c75bef33965576081d,group-g/user7,"Added basic paste detection. Todo: Proper format, store date"
+102,1456200765,0bfe188a18fec86c20b8cd5716d779b4d19dde9b,group-g/user8,"Modified the source code to work in my newly created plugin"
+103,1456166805,4679705c92ac6adcb45c6e3bd0cd40d460cd60d6,group-g/user6,"fixed link
+
+hopefully"
+104,1456166754,4cbd92486a13691b13aa288205caef3e794d4155,group-g/user6,"demo .gif added
+
+this will hopefully work as intended, will probably update the .gif
+later with more context but this is mainly meant to see if it will work
+at all."
+105,1456165697,47cdf78fcc0504dbb830a2a947f9ba3a50fdef0b,group-g/user6,"copy now resets index, added readme
+
+^"
+106,1456163102,e3b053daa1567620ba98a2851fe001b0b590a08e,group-g/user6,"all commands are working!
+
+had to rebind indexNext from ‘shift-cmd-l’ to ‘shift-cmd-k’ because of
+a keybinding conflict"
+107,1456161417,6868abe479bb51314ac0365b98a0577023fb6f7a,group-g/user6,"debugging, 75% working
+
+added console logs, everything is working except  indexNext because
+that apparently is using the same command (cmd-shift-l) as another
+already existing command"
+108,1456156283,c3a2db029a254dc7abddc2022884680549827b56,group-g/user6,"first stable build
+
+still debugging and clearing up functionality, but at least everything
+runs now and sort of “works”"
+109,1456116364,e87e7667d9e1b27060d4ade0499b99f33eacd919,group-g/user7,"Remove log file, mac hidden files"
+110,1456116333,7ab736e5b3faae6d65d6201d8ef75385dbe625d3,group-g/user7,"Minor fix to applescript"
+111,1456114884,5a03d7d19a911ad08274b23b764d062c874f51ae,group-g/user7,"Remove clipboard-history"
+112,1456114712,51281131b76a47ad210e670b28a3e4f953a9c759,group-g/user7,"Logging when something is copied onto the system clipboard"
+113,1456114017,0b4d21fecd38bf8f504a781f972038894c82e95e,group-g/user8,"Fixed some bugs in commands"
+114,1456088443,4dc910d026b367680c64435d28f3690bb6abe4f6,group-g/user8,"A working word counter"
+115,1455652655,b2161ea465d2393fb32794b9889fcbb314aafe63,group-g/user6,"updated menus and styles
+
+theoretically menus and styles are now done, spec remains but thats for
+testing later, right now will need to focus on debugging because it
+doesn’t work at all (luckily atom is built on chromium so we have some
+debug tools)"
+116,1455650561,36c25c2c20755be86ff132e83113cfd48805f5fb,group-g/user6,"reorg, and initial work on the keymaps, lib, and package
+
+theoretically the keymaps .cson, package.json, and the two lib .coffee
+files are all altered and could be final, still need to work on menus,
+spec, and styles"
+117,1455598113,f71ff822c61933116b2dd371aa19a547c82c9a87,group-g/user8,"write a short description of this branch"
+118,1455594858,53e408f5b7f3b9a9beb40b631cec29dd07fd5459,group-g/user7,"Update readme"
+119,1455566195,19e3a72a798688263ba3492f9556a563a91f9098,group-g/user4,"Panel Added"
+120,1455565854,2c1adb6fa8ab9b4d8ef8c4762b01180dac4346f8,group-g/user4,"First Atom Package"
+121,1455408022,ca04fe203daddd25bd1d4ae68bebdca02adc1f74,group-g/user7,"Added base to telemetry"
+122,1455305659,1a6049b797fe20fda5fd7671ed513b8b49bcd31d,group-g/user6,"added textmate project as a subdir to guide edits
+
+this is really just so i can quickly compare in atom rather than
+looking at the github in a separate window, will remove this when done"
+123,1455304469,155d6c478ee3f45cff8e2367556f11493026a3a9,group-g/user6,"removed eclipse project
+
+just merged most recent master to cleebp, now cleaning up dir prior to
+dev, hope this is all in my branch and I’m not screwing with master…"
+124,1455304334,46ada38b453824b33ccf70d0760a6606d477ff05,group-g/user6,"Merge branch 'master' into cleebp"
+125,1455252267,d2ae1039f179da88b84953e636037afd86561e58,group-g/user8,"Start working"
+126,1455251715,ae4f146dac7376363b1c8a948ab627301ac9485a,group-g/user8,"remove helloworld demo for eclipse"
+127,1455251392,175412066c5e90eafbcb27d4c7c827d97f9a3dd5,group-g/user8,"Try again"
+128,1455251287,d96a132da4d74248d4b687d58fd5d22ce7c1cd59,group-g/user8,"Hope this time works"
+129,1455249434,59954e74963ff96d0870ed41d0dd62d162a37679,group-g/user8,"get the base clipboard to my branch"
+130,1455137058,ad17834d3296e8f2b162d8d79ed7b3b8590321fb,group-g/user6,"updated main readme"
+131,1455136141,458599ae797208e0d4bf12dac23131b194a56447,group-g/user6,"added feature subdirectories"
+132,1455135981,5f085e2a8c985a89274b98da01b04bc0e7caa01a,group-g/user6,"initial mar1 setup
+
+added mar1 folder along with subdirectories for each project “solution”
+or “feature”, open source starter project is located in base and was
+forked with no edits yet"
+133,1454380483,061082f76a322c4aa41b2b4d9ecb3ec69268a2cf,group-g/user6,"removed unnecessary latex files"
+134,1454380358,86fd609e9a321a739397bbfda0c924969e2fd154,group-g/user7,"Removing mac hidden files"
+135,1454380243,7c852d52bc60a41be86cd0210df48f28fe58ac28,group-g/user7,"Removing mac files"
+136,1454380185,5f18469addf5af98201e24fd48ebda55c728348c,group-g/user7,"Merge branch 'master' of https://github.com/cleebp/csc-510-group-g"
+137,1454380071,0e6f034394006c58f11966fabb351b87f5543b52,group-g/user7,"Fixing update I broke"
+138,1454378605,86ae252c7beb41e71ad80042617dc328cbf77a20,group-g/user6,"fixed main readme
+
+silly new lines…"
+139,1454378418,89301a7b149a6aa6ea31fe8b6d8dd2179e23db7c,group-g/user6,"updated readmes
+
+I wonder what the plural of readme is…"
+140,1454377487,421cb9ab1579acee5106a8bf09f342fdef497443,group-g/user6,"initial feb1 commit"
+141,1454297987,6e939a59b023a2a57a27deaa08dd3cc04de09d5e,group-g/user7,"Fixed folders"
+142,1454129918,a6e5c4361bfe3ce051a49649e6e976d5a1d0a29b,group-g/user7,"Added a folder to store the feb1 report"
+143,1454128282,54857595c5fd2ce6744d0fd7effee56db7d3a7f2,group-g/user4,"Deleted org.plugin.helloworld.rar"
+144,1454127110,5ccb0f32ddd38ab6fa7d975ba6ab0a63ed9835f8,group-g/user4,"Merge branch 'effat' of https://github.com/cleebp/csc-510-group-g into
+blah blah"
+145,1454126926,e12ce7c1a4ca381ae5b9c7b1eaa15482fd737de1,group-g/user4,"checking out from master"
+146,1453939837,d3687a790c30e528a0319f1df7f6d1e7b1519ad0,group-g/user4,"Hello world plugin"
+147,1453936463,a2325fd352552c8cd562d75a88258d4996c7cfb8,group-g/user4,"add all"
+148,1453936347,1403c2c410ed8b27be3aba891340d0a6faba3d85,group-g/user4,"add all"
+149,1453934581,793a181ef0072737977243fc48dd9d69ce8d8b89,group-g/user4,"Add all files"
+150,1453319955,2db36ecf2613734ed273c07b419566bae7707cb3,group-g/user8,"Eclipse demo"
+151,1453315610,dfc20f060c667d08adb0a7d64295a71a8d887a47,group-g/user6,"hello world plugin test commit
+
+hope this works"
+152,1452623363,e6dd29e0b4b464de6c0d10eb8c558778d5357869,group-g/user7,"Added placeholder for readme"
