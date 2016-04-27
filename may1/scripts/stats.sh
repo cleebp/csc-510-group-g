@@ -12,5 +12,6 @@ sqlite3 -csv ../data/databases/${repo}.db "select user, sum(deletions) from comm
 sqlite3 -csv ../data/databases/${repo}.db "select user, sum(additions) - sum(deletions) from commits group by user;" > ../data/csv/changes_made/${repo}.csv
 sqlite3 -csv ../data/databases/${repo}.db "select user, count(*) as comments from comment group by user;" > ../data/csv/comments_user/${repo}.csv
 sqlite3 -csv ../data/databases/${repo}.db "select numShort, numTotal, (numShort+0.0)/numTotal from (select count(*) as numShort from event cl, (select issueID, min(time) as time from event group by issueID) op where cl.action == 'closed' AND cl.issueID == op.issueID and (cl.time - op.time) < 3600), (select count(distinct issueID) as numTotal from event);" > ../data/csv/short_open/${repo}.csv
+sqlite3 -csv ../data/databases/${repo}.db "select user, sum(additions) - sum(deletions) from commits;" > ../data/csv/changes_per_commit/${repo}.csv
 done
 find ../data/csv/ -size  0 -exec rm '{}' \;
