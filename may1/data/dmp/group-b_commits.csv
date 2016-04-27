@@ -1,124 +1,132 @@
-1,1460092815,2738c23da3d7f8f9b66886015bc09d98d43940a6,group-b-2/user3,"Merge branch 'master' of https://github.com/ankitkumar93/csc510-se-project"
-2,1460092801,a01bc8ef1c529abb2326afc292f9cfdc59f3ead7,group-b-2/user3,"Added Blank Talk"
-3,1460089147,604c7d3794634d402d3d0be3b92487041fb2b2a1,group-b-2/user3,"Update Solution Merged Links"
-4,1460089074,8ac5e086599b1ac81f0a3cab9a94f72a56fa0c09,group-b-2/user3,"Restructured Code Base"
-5,1460089031,398639a60e0c49ecbf900cf5ea21183b747a426c,group-b-2/user3,"Merge Done"
-6,1460088985,35b62f34764ac0f3f64f0a6e11c56916c11c510d,group-b-2/user3,Merging
-7,1460088905,9540d5376cba3b614d081f219e7fc6253c3fd9fc,group-b-2/user3,"Merging Solution 2Merge branch 'solution2'"
-8,1460088885,5a936d48912335dd7ccc8eb405ec544777686437,group-b-2/user3,Merging
-9,1460088822,716c20fcc5af0fa098408a704d3571cf5882ba88,group-b-2/user3,"Merge branch 'solution1'Adding solution 1"
-10,1460088802,c27568b937d6a666b69b244a09d67c2159f1749f,group-b-2/user3,"Added master data"
-11,1460088042,1307096b6bfe1115286cbacb871b8d39f57d2f53,group-b-2/user3,"Merge branch 'master' of https://github.com/ankitkumar93/csc510-se-project"
-12,1460087997,6f1b8a71dd28991e6b5c14c1951f6c37617e18ce,group-b-2/user3,"Report Updated"
-13,1460087656,fbab0416423db6467634d6b4ef9db44cc93c2347,group-b-2/user3,"Graphs Added to Report"
-14,1460087256,534ca0f7ec70bece442d9ee3040a60f1529cc25e,group-b-2/user3,"Update README.md"
-15,1460087118,f1fb93cef1866fa476218fb80c28e04705f8f23b,group-b-2/user3,"April Report Added"
-16,1460070863,ce9933fffd37f167e4c2e70656b97cdbd395dc2c,group-b-2/user3,"Tel Fix"
-17,1460070744,c50a322095775bc4861963cb711138f4f8604573,group-b-2/user3,"T fix"
-18,1460070635,368a1372d08f488682baf99c737b9d27154711cb,group-b-2/user3,"T Fix"
-19,1460070470,8809cc4b4f31aa6e1cbf3d112b130310d13d8179,group-b-2/user3,Fix
-20,1460070390,84ae3ca3fe6f75493c6c7418d5d2fa0de9bbfd39,group-b-2/user3,"Added Telemetry"
-21,1460069775,6d76f166e063518b25b937f9cd3e68cfc133c28f,group-b-2/user3,"Added Telemetry"
-22,1460068535,6cdc7efc2690c20b62fc7dc33b796e51b57635f5,group-b-2/user3,"Added Answer Fetch"
-23,1460057852,3a6b355be34e3052d0d665be5559a3c24e31986d,group-b-2/user3,"Fixed Structure"
-24,1460057770,e450f98b9af686d0d3eca44fb5f57782a927910c,group-b-2/user3,"Plugin Updated"
-25,1460057736,090991cfa03b16e828f196ccdf671f20fbbf3ebb,group-b-2/user3,"Updated Plugin"
-26,1460057690,3649ae8940477512fdebd6817baac3575dea80a0,group-b-2/user3,"Updated Plugin"
-27,1460057410,0b18e515d544734aeb92198391785b69ef0f60ee,group-b-2/user3,"Fixed Directory Structure"
-28,1460057359,453a7fc9e8b15f15ddc9e52e690f91defe1123f8,group-b-2/user3,"Fixed DStruct"
-29,1460057271,471f0db7f36455b0fb4681701308c3b266b20004,group-b-2/user3,"Fixed Directory Structure"
-30,1460010876,2999eaadfa9d411370a0f91ca7b823a0fe3f8676,group-b-2/user3,"Added Telemetry AUTO"
-31,1459999642,5b69262781a5fdd2ac76e2b571c10cc9f0671bd6,group-b-2/user3,DOne
-32,1459999222,67f199810b73cbe420a9003e55b2f1f5c2052023,group-b-2/user3,"Fixed Clustering"
-33,1459998335,a26d8c6a1c9307c0361d32a7d209a9e778b5c971,group-b-2/user3,"SOl3 Fixed"
-34,1459986881,9fd36b2e26357b0719483c7b34fc12c04e41cd46,group-b-2/user3,"Added Background data collection"
-35,1459922492,ede377c05a76fbf615dc812165cf2ff18adbc2d4,group-b-2/user3,"Modifeid Clustering"
-36,1459834682,ccb4907b3dbca1c96e2bb3997675e74bae5cc2cb,group-b-2/user3,"updated clustering for tokenization"
-37,1459830094,7b80399507f6632dfd16833661a7c4179221393c,group-b-2/user3,"Sol3 Fix"
-38,1459406721,2ae70fe35a2985856b823f3a265a53284d061467,group-b-2/user3,"Hasher Fix"
-39,1459406007,aa1e005f33c27240364d7abb7b63725f09e81943,group-b-2/user3,"Modified Bagofwords.py"
-40,1459403531,efef81498f5f870285bcbb179a3fcfc99f143cac,group-b-2/user3,"Bug Fix"
-41,1459402592,04dcc0cfac0f14e0c1c4ffbcd18167cafb64104b,group-b-2/user3,"Bug Fix"
-42,1459238990,662d8268d8702049c0ec866af2a1d484a50cdef2,group-b-2/user3,"Simhash filter in progress"
-43,1459238485,00178f23850e80b81472f9f46108deb199ab1df6,group-b-2/user3,"Added simhash"
-44,1459210355,a08348367f377ad66a86c96ab906a1357007529e,group-b-2/user3,"Solution 3 init"
-45,1459210102,883ed6925f2ebe282f3ee9295437e172f9e30050,group-b-2/user3,"Filters Added"
-46,1457077054,cbeddfea90cd323f4280e98f005b1c428acd2701,group-b-2/user1,"Merge branch 'solution2' of https://github.com/ankitkumar93/csc510-se-project into solution2
+1,1461097333,50a215b73f9ad0ae5ebc63867fb17c8f1450a8a9,group-b/user3,"Talk Update",0,0
+2,1461092549,40e73000c75bd47b4c3ee4d007e268d269bdc1b5,group-b/user3,"Talk Updated",0,0
+3,1461086383,cccdae874468b47a7ac640e46e0e103b83a712d4,group-b/user3,"Talk Link Added",1,0
+4,1461086156,08af1749c959d64da56f2570d410ec20961a3a1d,group-b/user3,"Talk Updated",0,0
+5,1461039370,fd9eec1af27b118e821850d9ab20b1a53c9af99a,group-b/user3,"Talk Updated",0,0
+6,1460696823,c2d8ff129fce2782242e1cba2a081ea475952461,group-b/user3,"Project 2 Gitable Update",1,4
+7,1460696203,a9786679db3e46ab3a3eca032e8f5ade39660bb9,group-b/user3,"Project 2 Gitable Update",56,56
+8,1460239364,c6c11d84e86efc3a70029d6e66a56b6bafaf2836,group-b/user3,"Init Gitable Modified Scrip",96,0
+9,1460092815,2738c23da3d7f8f9b66886015bc09d98d43940a6,group-b/user3,"Merge branch 'master' of https://github.com/ankitkumar93/csc510-se-project",3,3
+10,1460092801,a01bc8ef1c529abb2326afc292f9cfdc59f3ead7,group-b/user3,"Added Blank Talk",0,0
+11,1460089147,604c7d3794634d402d3d0be3b92487041fb2b2a1,group-b/user3,"Update Solution Merged Links",3,3
+12,1460089074,8ac5e086599b1ac81f0a3cab9a94f72a56fa0c09,group-b/user3,"Restructured Code Base",0,0
+13,1460089031,398639a60e0c49ecbf900cf5ea21183b747a426c,group-b/user3,"Merge Done",11812,0
+14,1460088985,35b62f34764ac0f3f64f0a6e11c56916c11c510d,group-b/user3,Merging,9864,0
+15,1460088905,9540d5376cba3b614d081f219e7fc6253c3fd9fc,group-b/user3,"Merging Solution 2Merge branch 'solution2'",12668,0
+16,1460088885,5a936d48912335dd7ccc8eb405ec544777686437,group-b/user3,Merging,9864,0
+17,1460088822,716c20fcc5af0fa098408a704d3571cf5882ba88,group-b/user3,"Merge branch 'solution1'Adding solution 1",9815,0
+18,1460088802,c27568b937d6a666b69b244a09d67c2159f1749f,group-b/user3,"Added master data",49,0
+19,1460088042,1307096b6bfe1115286cbacb871b8d39f57d2f53,group-b/user3,"Merge branch 'master' of https://github.com/ankitkumar93/csc510-se-project",2,5
+20,1460087997,6f1b8a71dd28991e6b5c14c1951f6c37617e18ce,group-b/user3,"Report Updated",0,0
+21,1460087656,fbab0416423db6467634d6b4ef9db44cc93c2347,group-b/user3,"Graphs Added to Report",0,0
+22,1460087256,534ca0f7ec70bece442d9ee3040a60f1529cc25e,group-b/user3,"Update README.md",2,5
+23,1460087118,f1fb93cef1866fa476218fb80c28e04705f8f23b,group-b/user3,"April Report Added",0,0
+24,1460070863,ce9933fffd37f167e4c2e70656b97cdbd395dc2c,group-b/user3,"Tel Fix",6,4
+25,1460070744,c50a322095775bc4861963cb711138f4f8604573,group-b/user3,"T fix",6,4
+26,1460070635,368a1372d08f488682baf99c737b9d27154711cb,group-b/user3,"T Fix",4,2
+27,1460070470,8809cc4b4f31aa6e1cbf3d112b130310d13d8179,group-b/user3,Fix,2,2
+28,1460070390,84ae3ca3fe6f75493c6c7418d5d2fa0de9bbfd39,group-b/user3,"Added Telemetry",321,18
+29,1460069775,6d76f166e063518b25b937f9cd3e68cfc133c28f,group-b/user3,"Added Telemetry",305,17
+30,1460068535,6cdc7efc2690c20b62fc7dc33b796e51b57635f5,group-b/user3,"Added Answer Fetch",105,19
+31,1460057852,3a6b355be34e3052d0d665be5559a3c24e31986d,group-b/user3,"Fixed Structure",0,0
+32,1460057770,e450f98b9af686d0d3eca44fb5f57782a927910c,group-b/user3,"Plugin Updated",20,1
+33,1460057736,090991cfa03b16e828f196ccdf671f20fbbf3ebb,group-b/user3,"Updated Plugin",20,1
+34,1460057690,3649ae8940477512fdebd6817baac3575dea80a0,group-b/user3,"Updated Plugin",20,1
+35,1460057410,0b18e515d544734aeb92198391785b69ef0f60ee,group-b/user3,"Fixed Directory Structure",0,0
+36,1460057359,453a7fc9e8b15f15ddc9e52e690f91defe1123f8,group-b/user3,"Fixed DStruct",0,0
+37,1460057271,471f0db7f36455b0fb4681701308c3b266b20004,group-b/user3,"Fixed Directory Structure",0,0
+38,1460010876,2999eaadfa9d411370a0f91ca7b823a0fe3f8676,group-b/user3,"Added Telemetry AUTO",196,5
+39,1459999642,5b69262781a5fdd2ac76e2b571c10cc9f0671bd6,group-b/user3,DOne,3,2
+40,1459999222,67f199810b73cbe420a9003e55b2f1f5c2052023,group-b/user3,"Fixed Clustering",8,7
+41,1459998335,a26d8c6a1c9307c0361d32a7d209a9e778b5c971,group-b/user3,"SOl3 Fixed",86,7
+42,1459986881,9fd36b2e26357b0719483c7b34fc12c04e41cd46,group-b/user3,"Added Background data collection",11,1
+43,1459922492,ede377c05a76fbf615dc812165cf2ff18adbc2d4,group-b/user3,"Modifeid Clustering",9,8
+44,1459834682,ccb4907b3dbca1c96e2bb3997675e74bae5cc2cb,group-b/user3,"updated clustering for tokenization",19,17
+45,1459830094,7b80399507f6632dfd16833661a7c4179221393c,group-b/user3,"Sol3 Fix",82,43
+46,1459406721,2ae70fe35a2985856b823f3a265a53284d061467,group-b/user3,"Hasher Fix",7,4
+47,1459406007,aa1e005f33c27240364d7abb7b63725f09e81943,group-b/user3,"Modified Bagofwords.py",3,1
+48,1459403531,efef81498f5f870285bcbb179a3fcfc99f143cac,group-b/user3,"Bug Fix",6,6
+49,1459402592,04dcc0cfac0f14e0c1c4ffbcd18167cafb64104b,group-b/user3,"Bug Fix",112,14
+50,1459238990,662d8268d8702049c0ec866af2a1d484a50cdef2,group-b/user3,"Simhash filter in progress",14,2
+51,1459238485,00178f23850e80b81472f9f46108deb199ab1df6,group-b/user3,"Added simhash",554,5
+52,1459210355,a08348367f377ad66a86c96ab906a1357007529e,group-b/user3,"Solution 3 init",9807,0
+53,1459210102,883ed6925f2ebe282f3ee9295437e172f9e30050,group-b/user3,"Filters Added",60,1
+54,1457077054,cbeddfea90cd323f4280e98f005b1c428acd2701,group-b/user1,"Merge branch 'solution2' of https://github.com/ankitkumar93/csc510-se-project into solution2
 
 Conflicts:
-	kmeans.py"
-47,1457077025,fe77a3f748b9bc55ce5dec0385d1eebea9476add,group-b-2/user1,"updating k means file"
-48,1457076858,8b060ed7bf62ac40a943e7552be1a24b1f2e7c7b,group-b-2/user1,"adding updated data file"
-49,1457068390,a2aaf530b49d582b02fd5e8ff24c548b74f7acf5,group-b-2/user3,"Sol2 Integrated"
-50,1457066704,5bdcad59118c64d08bc4494bdbb323e8f88a8dac,group-b-2/user5,"updating lda model file"
-51,1457066573,0dddfb120a55d29cbfb31b81088d9ed080285fc6,group-b-2/user5,"adding new stopwords to the file"
-52,1457066388,fc9df06e0d930aa3f20e21d80feed9cc39d59cd9,group-b-2/user5,"changing kmeans algo"
-53,1457066054,2860000ca1a25cf26c380bf84c57fd4949748014,group-b-2/user1,"updating stopwords file"
-54,1457065970,9f4abfe285a298ed76ae54ff635ced6c18302067,group-b-2/user1,"updating kmeans file"
-55,1457065868,4ae7225bd16137c97a820645e4d3bc2ac2ff9253,group-b-2/user1,"adding solution 2 data file"
-56,1457060204,015277ca77b2374772edc713bcd62f6e558dd266,group-b-2/user1,"updating kmeans file"
-57,1457059241,068a07fb56b8eba4abcf6c895961209e21bca0b6,group-b-2/user1,"updating kmeans file"
-58,1457056150,4e08e08194294f9c423d44d6666d32e481ba14fc,group-b-2/user1,"adding kmeans file"
-59,1457046897,4a20a79ae567cbeacaef73ef4b2884f260d488ed,group-b-2/user3,"Solution 2 Added Interfacace"
-60,1456890882,ba76549ba18d76b7082361dc3f8baad95cbd1045,group-b-2/user3,"March 1 Done"
-61,1456890662,e0adee5b0bcc1a6b7d69c19be9f071b24dc404a8,group-b-2/user3,"Fixed Survey Response link"
-62,1456890569,9b41b2d58461587167cac3534156c29d695b4b9b,group-b-2/user3,"Fixed Survey Link Indentation"
-63,1456890526,7e84ce1dae567069d724eb2f2ed63a18db35d684,group-b-2/user3,"Added Survey Links"
-64,1456888588,ab0f6b554c91e4aa83999dd8c0f4f309912ff99f,group-b-2/user5,"Updating Telemetry Link"
-65,1456888514,5c6121a71b616aa5556e9c8694c3c6563a1363eb,group-b-2/user5,"Updating links and bullets"
-66,1456887998,5c6bc94f64df8ce662edb46efd5e0856af88bacf,group-b-2/user1,"Adding Telemetry file"
-67,1456887352,21a00617f8841f65a0f7195b82220214fe7a1a0c,group-b-2/user1,"updated links"
-68,1456887308,ce563214827b41d10917cb792d5b63a3e4d6923d,group-b-2/user1,"Update README.md"
-69,1456887227,5282869827ced212b7ed35790f63caca372523db,group-b-2/user1,"Update README.md"
-70,1456887026,b75b15143599e5bf37f6855089449aa3095f4656,group-b-2/user3,"Update and rename Telemetry.md to Evaluation.md"
-71,1456886994,a1db10d3be5519bd60e9a4ba9c0ee74a8e86ac49,group-b-2/user1,"Update README.md"
-72,1456886955,e3bc9264009f1869ff9283cc853a7959f04e1b83,group-b-2/user3,"updated indentation"
-73,1456886932,08243c84d16c43aa7e265d7ab45b4d43748d9034,group-b-2/user3,"Update Telemetry.md"
-74,1456886902,ce9be45a98cfde2a10ebe8924e24f27c5b1a2f21,group-b-2/user1,"Updating links and bullets"
-75,1456886381,d2d6673a745f4adcfb53515566b75443091b15d1,group-b-2/user1,"Fixed indentation"
-76,1456886282,4a197beab18f8911a6d34e9a89a969518e346e83,group-b-2/user1,"updated links"
-77,1456886155,f877576c2e969856434c7dad5c3bbee628e6137e,group-b-2/user1,"README updated"
-78,1456885952,9f92ab4faf9a14288fb8d1f80b9cb207113ef256,group-b-2/user4,"Merge branch 'master' of https://github.com/ankitkumar93/csc510-se-project"
-79,1456885934,d90a103a054b9eac2f55cdac2995fff24bc57a5a,group-b-2/user4,Telemetry
-80,1456864014,bbf490f6d870249e3ff2515be853968dadd03440,group-b-2/user3,"Solution 1 Ready"
-81,1456811451,080f2a80085c0bbbcca715d4447b24fe2d9e92c3,group-b-2/user1,"adding lda clustering file"
-82,1456811424,08cc9b691653ab921361f9ff73826517cf7d98ab,group-b-2/user1,"adding stopwords BOW file"
-83,1456811397,1be2b75b2ea495b49811699ec19ea127ae440fb5,group-b-2/user1,"adding Topic Modeling test code file"
-84,1456811369,5bd93af043d672c78abf3a7cc5ca25e4fa1044a4,group-b-2/user1,"adding test xml file"
-85,1456811290,cd48005cfb56fe6402c87362401032c33cf0297c,group-b-2/user1,"Adding test post data"
-86,1456811264,ec53a79b654cbc1dda87fa4c43434d243cb02395,group-b-2/user1,"Adding clustering file"
-87,1456811088,2798449116ccf0cac291c75079551231cf2ac7db,group-b-2/user1,"solution2 init"
-88,1456810985,7cb30e184f05aff719af4aec16af1969e71a413c,group-b-2/user3,"Removed Junk Files"
-89,1456810805,a59123b5d145623beb45d57fb1440c829e10fd82,group-b-2/user1,"Adding updated README file"
-90,1456810797,2754583f2360dba0cc12216433c8bdbcce81054a,group-b-2/user5," Moving files to solution 1"
-91,1456810739,f1347b037a345a00e48c280f5e4cffbb550da994,group-b-2/user5," Moving files to solution 1"
-92,1456810621,64b646d28179c159e7f9b1640811dc6b18c47178,group-b-2/user5," Moving files to solution 1"
-93,1456810362,c28b08357137e5a93fbfa8f979b7b87298e6f95a,group-b-2/user5,"Adding solution1 db data import"
-94,1456806866,0e5c9b09c45210067fa6b789325926e9e02655af,group-b-2/user3,"Fixing Master"
-95,1456806059,af37a1eacc37b72bead8ccefe79987e67b52925f,group-b-2/user1,"Merge pull request #24 from ankitkumar93/db_import
+	kmeans.py",18,32
+55,1457077025,fe77a3f748b9bc55ce5dec0385d1eebea9476add,group-b/user1,"updating k means file",3,9
+56,1457076858,8b060ed7bf62ac40a943e7552be1a24b1f2e7c7b,group-b/user1,"adding updated data file",999,0
+57,1457068390,a2aaf530b49d582b02fd5e8ff24c548b74f7acf5,group-b/user3,"Sol2 Integrated",1,1
+58,1457066704,5bdcad59118c64d08bc4494bdbb323e8f88a8dac,group-b/user5,"updating lda model file",6,0
+59,1457066573,0dddfb120a55d29cbfb31b81088d9ed080285fc6,group-b/user5,"adding new stopwords to the file",1,1
+60,1457066388,fc9df06e0d930aa3f20e21d80feed9cc39d59cd9,group-b/user5,"changing kmeans algo",2,37
+61,1457066054,2860000ca1a25cf26c380bf84c57fd4949748014,group-b/user1,"updating stopwords file",1,1
+62,1457065970,9f4abfe285a298ed76ae54ff635ced6c18302067,group-b/user1,"updating kmeans file",5,4
+63,1457065868,4ae7225bd16137c97a820645e4d3bc2ac2ff9253,group-b/user1,"adding solution 2 data file",999,0
+64,1457060204,015277ca77b2374772edc713bcd62f6e558dd266,group-b/user1,"updating kmeans file",17,7
+65,1457059241,068a07fb56b8eba4abcf6c895961209e21bca0b6,group-b/user1,"updating kmeans file",25,13
+66,1457056150,4e08e08194294f9c423d44d6666d32e481ba14fc,group-b/user1,"adding kmeans file",163,0
+67,1457046897,4a20a79ae567cbeacaef73ef4b2884f260d488ed,group-b/user3,"Solution 2 Added Interfacace",9748,0
+68,1456890882,ba76549ba18d76b7082361dc3f8baad95cbd1045,group-b/user3,"March 1 Done",0,0
+69,1456890662,e0adee5b0bcc1a6b7d69c19be9f071b24dc404a8,group-b/user3,"Fixed Survey Response link",1,1
+70,1456890569,9b41b2d58461587167cac3534156c29d695b4b9b,group-b/user3,"Fixed Survey Link Indentation",1,1
+71,1456890526,7e84ce1dae567069d724eb2f2ed63a18db35d684,group-b/user3,"Added Survey Links",6,2
+72,1456888588,ab0f6b554c91e4aa83999dd8c0f4f309912ff99f,group-b/user5,"Updating Telemetry Link",1,1
+73,1456888514,5c6121a71b616aa5556e9c8694c3c6563a1363eb,group-b/user5,"Updating links and bullets",7,6
+74,1456887998,5c6bc94f64df8ce662edb46efd5e0856af88bacf,group-b/user1,"Adding Telemetry file",7,0
+75,1456887352,21a00617f8841f65a0f7195b82220214fe7a1a0c,group-b/user1,"updated links",1,1
+76,1456887308,ce563214827b41d10917cb792d5b63a3e4d6923d,group-b/user1,"Update README.md",2,3
+77,1456887227,5282869827ced212b7ed35790f63caca372523db,group-b/user1,"Update README.md",6,4
+78,1456887026,b75b15143599e5bf37f6855089449aa3095f4656,group-b/user3,"Update and rename Telemetry.md to Evaluation.md",3,3
+79,1456886994,a1db10d3be5519bd60e9a4ba9c0ee74a8e86ac49,group-b/user1,"Update README.md",11,11
+80,1456886955,e3bc9264009f1869ff9283cc853a7959f04e1b83,group-b/user3,"updated indentation",1,1
+81,1456886932,08243c84d16c43aa7e265d7ab45b4d43748d9034,group-b/user3,"Update Telemetry.md",23,23
+82,1456886902,ce9be45a98cfde2a10ebe8924e24f27c5b1a2f21,group-b/user1,"Updating links and bullets",14,14
+83,1456886381,d2d6673a745f4adcfb53515566b75443091b15d1,group-b/user1,"Fixed indentation",14,14
+84,1456886282,4a197beab18f8911a6d34e9a89a969518e346e83,group-b/user1,"updated links",7,7
+85,1456886155,f877576c2e969856434c7dad5c3bbee628e6137e,group-b/user1,"README updated",7,27
+86,1456885952,9f92ab4faf9a14288fb8d1f80b9cb207113ef256,group-b/user4,"Merge branch 'master' of https://github.com/ankitkumar93/csc510-se-project",17,0
+87,1456885934,d90a103a054b9eac2f55cdac2995fff24bc57a5a,group-b/user4,Telemetry,24,0
+88,1456864014,bbf490f6d870249e3ff2515be853968dadd03440,group-b/user3,"Solution 1 Ready",9748,0
+89,1456811451,080f2a80085c0bbbcca715d4447b24fe2d9e92c3,group-b/user1,"adding lda clustering file",156,0
+90,1456811424,08cc9b691653ab921361f9ff73826517cf7d98ab,group-b/user1,"adding stopwords BOW file",1,0
+91,1456811397,1be2b75b2ea495b49811699ec19ea127ae440fb5,group-b/user1,"adding Topic Modeling test code file",141,0
+92,1456811369,5bd93af043d672c78abf3a7cc5ca25e4fa1044a4,group-b/user1,"adding test xml file",1,0
+93,1456811290,cd48005cfb56fe6402c87362401032c33cf0297c,group-b/user1,"Adding test post data",999,0
+94,1456811264,ec53a79b654cbc1dda87fa4c43434d243cb02395,group-b/user1,"Adding clustering file",165,0
+95,1456811088,2798449116ccf0cac291c75079551231cf2ac7db,group-b/user1,"solution2 init",0,377
+96,1456810985,7cb30e184f05aff719af4aec16af1969e71a413c,group-b/user3,"Removed Junk Files",0,11
+97,1456810805,a59123b5d145623beb45d57fb1440c829e10fd82,group-b/user1,"Adding updated README file",14,8
+98,1456810797,2754583f2360dba0cc12216433c8bdbcce81054a,group-b/user5," Moving files to solution 1",1,0
+99,1456810739,f1347b037a345a00e48c280f5e4cffbb550da994,group-b/user5," Moving files to solution 1",46,0
+100,1456810621,64b646d28179c159e7f9b1640811dc6b18c47178,group-b/user5," Moving files to solution 1",71,0
+101,1456810362,c28b08357137e5a93fbfa8f979b7b87298e6f95a,group-b/user5,"Adding solution1 db data import",248,0
+102,1456806866,0e5c9b09c45210067fa6b789325926e9e02655af,group-b/user3,"Fixing Master",11,11155
+103,1456806059,af37a1eacc37b72bead8ccefe79987e67b52925f,group-b/user1,"Merge pull request #24 from ankitkumar93/db_import
 
-Db import"
-96,1456805613,946310f5fd40514a233e08cd8a82ecd4b9be2a37,group-b-2/user1,"Adding mongodb import export command notes"
-97,1456717827,56b34a11d42b14f477de5d82bc25fc331b61466a,group-b-2/user3,"Answer Db"
-98,1456709422,d37b04ac23518a373f4fe7a222216c786df82ac7,group-b-2/user3,"Answer Collection Added"
-99,1456681101,adb1f5dd5cfcb298562000bf6fac1868a04f7c45,group-b-2/user1,"deleting file as uploaded in wrong branch"
-100,1456680901,dd6a1b00f2458554aba8382f6481148506b9521e,group-b-2/user1,"Adding Clustering code"
-101,1456608335,a3404067e9a92e9f7bcba10abb917c3f66a95d3d,group-b-2/user3,"Questios JSON Size Reduced"
-102,1456556403,70912c69511936b66434fc6e1ec108319943d674,group-b-2/user3,"New HTML Filter Added"
-103,1456473523,6234bd0327ca9811565157315c5ef5e2a5e76f15,group-b-2/user3,"DB Processor Modified"
-104,1456463570,e7687ad45d0c0221eecd72fb877d06e9f244258b,group-b-2/user4,"Plugin Done"
-105,1456463324,2b6e076d7ba049086a2b0ba0b9c36e7ef3712896,group-b-2/user4,"Plugin Done"
-106,1456457204,d358fc88f1430e311596d3877e75a75e9728aee0,group-b-2/user3,"Plugin Dev Started"
-107,1456442757,46be4b59d1115f374bebffbcb9cc1505b397942b,group-b-2/user3,"Dump 0 File Online"
-108,1456087845,12236cbe3ebe5f37a6623bc2c1eb8e19ff7e7bae,group-b-2/user3,"sample db up"
-109,1456086034,5c5cfc42a1e74344c3183c404ca2a921c4cd6368,group-b-2/user3,"db creator in python"
-110,1456083095,158ee61d2696f684931969932f9ff79668554d02,group-b-2/user3,"Few Data Dumps"
-111,1456033417,a31c0871592da5c613a88820f0494ae8e9664a9e,group-b-2/user3,"Small Dump"
-112,1456033220,1a83a84c680220fa46a1f7c3d81ec5c81c7b6b70,group-b-2/user3,"Few Dumps of Data Created"
-113,1455659860,3952076ae36b2bb901449afc17c4d947a6fa0a04,group-b-2/user3,"Init Branch"
-114,1455653905,e5176223892663212c37601d7cc91cd920c835b4,group-b-2/user3,"README Created"
-115,1454305347,912326c5e3a2689823759fc56816660de1bf2c08,group-b-2/user3,"Feb 1 Report"
-116,1454305246,3a1edb6b5c214c2267f07c24e2c3da11bfa4208f,group-b-2/user3,"Feb 1 Report"
-117,1454305215,a7417634e2cddfdc9cd3db78b358989319c388a4,group-b-2/user3,"Merge branch 'master' of https://github.com/ankitkumar93/csc510-se-project"
-118,1454305190,d1fcc9bf7fe2871b2f4c228bc7e0bfa45c50bdf2,group-b-2/user3,"Feb 1 Report"
-119,1452634383,02b9c9ba69eeb0347ac98c6f4642481195a35b55,group-b-2/user3,"Ankit Idea TXT"
+Db import",11155,11
+104,1456805613,946310f5fd40514a233e08cd8a82ecd4b9be2a37,group-b/user1,"Adding mongodb import export command notes",3,0
+105,1456717827,56b34a11d42b14f477de5d82bc25fc331b61466a,group-b/user3,"Answer Db",8,4
+106,1456709422,d37b04ac23518a373f4fe7a222216c786df82ac7,group-b/user3,"Answer Collection Added",46,12
+107,1456681101,adb1f5dd5cfcb298562000bf6fac1868a04f7c45,group-b/user1,"deleting file as uploaded in wrong branch",0,166
+108,1456680901,dd6a1b00f2458554aba8382f6481148506b9521e,group-b/user1,"Adding Clustering code",166,0
+109,1456608335,a3404067e9a92e9f7bcba10abb917c3f66a95d3d,group-b/user3,"Questios JSON Size Reduced",1,28917
+110,1456556403,70912c69511936b66434fc6e1ec108319943d674,group-b/user3,"New HTML Filter Added",29930,3
+111,1456473523,6234bd0327ca9811565157315c5ef5e2a5e76f15,group-b/user3,"DB Processor Modified",23,9
+112,1456463570,e7687ad45d0c0221eecd72fb877d06e9f244258b,group-b/user4,"Plugin Done",0,0
+113,1456463324,2b6e076d7ba049086a2b0ba0b9c36e7ef3712896,group-b/user4,"Plugin Done",18,0
+114,1456457204,d358fc88f1430e311596d3877e75a75e9728aee0,group-b/user3,"Plugin Dev Started",5,10089
+115,1456442757,46be4b59d1115f374bebffbcb9cc1505b397942b,group-b/user3,"Dump 0 File Online",1,0
+116,1456087845,12236cbe3ebe5f37a6623bc2c1eb8e19ff7e7bae,group-b/user3,"sample db up",10011,4
+117,1456086034,5c5cfc42a1e74344c3183c404ca2a921c4cd6368,group-b/user3,"db creator in python",37,0
+118,1456083095,158ee61d2696f684931969932f9ff79668554d02,group-b/user3,"Few Data Dumps",9,3
+119,1456033417,a31c0871592da5c613a88820f0494ae8e9664a9e,group-b/user3,"Small Dump",4,2
+120,1456033220,1a83a84c680220fa46a1f7c3d81ec5c81c7b6b70,group-b/user3,"Few Dumps of Data Created",36,4
+121,1455659860,3952076ae36b2bb901449afc17c4d947a6fa0a04,group-b/user3,"Init Branch",3,10
+122,1455653905,e5176223892663212c37601d7cc91cd920c835b4,group-b/user3,"README Created",11,0
+123,1454305347,912326c5e3a2689823759fc56816660de1bf2c08,group-b/user3,"Feb 1 Report",0,0
+124,1454305246,3a1edb6b5c214c2267f07c24e2c3da11bfa4208f,group-b/user3,"Feb 1 Report",0,0
+125,1454305215,a7417634e2cddfdc9cd3db78b358989319c388a4,group-b/user3,"Merge branch 'master' of https://github.com/ankitkumar93/csc510-se-project",0,0
+126,1454305190,d1fcc9bf7fe2871b2f4c228bc7e0bfa45c50bdf2,group-b/user3,"Feb 1 Report",0,0
+127,1452634383,02b9c9ba69eeb0347ac98c6f4642481195a35b55,group-b/user3,"Ankit Idea TXT",0,0

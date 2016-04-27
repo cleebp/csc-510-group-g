@@ -10,6 +10,7 @@
 5,1454096616,mentioned,mentioned,group-c/user4,,531812329
 5,1454093100,assigned,group-c/user1,group-c/user1,,531732816
 6,1455669761,closed,closed,group-c/user3,,552869430
+7,1461092292,closed,closed,group-c/user1,,633425243
 8,1455669847,closed,closed,group-c/user3,,552870396
 8,1454343563,renamed,renamed,group-c/user5,,534415633
 8,1454342998,labeled,"proj1 feedback",group-c/user5,,534400928
@@ -78,6 +79,7 @@
 26,1456516851,mentioned,mentioned,group-c/user3,,568112167
 26,1456516303,subscribed,subscribed,group-c/user1,,568096504
 26,1456516303,mentioned,mentioned,group-c/user1,,568096503
+27,1461092300,closed,closed,group-c/user1,,633425356
 27,1456778542,labeled,Suggestion,group-c/user3,,571801458
 27,1456520616,subscribed,subscribed,group-c/user3,,568203114
 27,1456520616,mentioned,mentioned,group-c/user3,,568203113
@@ -87,19 +89,24 @@
 29,1456778533,labeled,Suggestion,group-c/user3,,571801061
 29,1456691615,labeled,"1. Task",group-c/user4,,570060950
 29,1456691615,labeled,"help wanted",group-c/user4,,570060949
+30,1461092310,closed,closed,group-c/user1,,633425608
 30,1456715095,labeled,bug,group-c/user4,,570353786
 30,1456691625,labeled,"3. Results",group-c/user4,,570061032
+31,1461092319,closed,closed,group-c/user1,,633425764
 31,1456887370,renamed,renamed,group-c/user4,,574061852
 31,1456887356,subscribed,subscribed,group-c/user3,,574061566
 31,1456887356,mentioned,mentioned,group-c/user3,,574061565
 31,1456726292,assigned,group-c/user4,group-c/user4,,570512675
 31,1456725832,labeled,"3. Results",group-c/user4,,570505978
+32,1461092326,closed,closed,group-c/user1,2,633425912
 32,1456771745,assigned,group-c/user2,group-c/user2,2,571606245
 32,1456771741,milestoned,"Implementation Complete Mar 1",group-c/user2,2,571606204
 32,1456771733,labeled,"3. Results",group-c/user2,2,571606037
+33,1461092333,closed,closed,group-c/user1,,633426022
 33,1456778513,labeled,Suggestion,group-c/user3,,571800448
 34,1459949676,closed,closed,group-c/user3,3,616811026
 34,1456937662,milestoned,"March 1 report",group-c/user2,3,574953504
+35,1461092284,closed,closed,group-c/user1,,633425061
 36,1459794232,closed,closed,group-c/user3,10,614042619
 36,1456937539,milestoned,"Implement best solution with GUI",group-c/user2,10,574950150
 36,1456937539,labeled,enhancement,group-c/user2,10,574950149
@@ -192,9 +199,11 @@
 55,1459527832,labeled,bug,group-c/user2,,611490323
 55,1459527826,assigned,group-c/user3,group-c/user3,,611490243
 56,1460087629,closed,closed,group-c/user3,,619448701
+57,1461092270,closed,closed,group-c/user1,11,633424810
 57,1459638642,milestoned,"Changes for Mar. Feedback",group-c/user4,11,612407871
 57,1459638581,demilestoned,"Apr1 report",group-c/user4,11,612407075
 57,1459638565,milestoned,"Apr1 report",group-c/user4,11,612406883
+58,1461092257,closed,closed,group-c/user1,11,633424491
 58,1459639017,milestoned,"Changes for Mar. Feedback",group-c/user4,11,612410276
 58,1459638524,assigned,group-c/user4,group-c/user4,11,612406445
 59,1459996226,closed,closed,group-c/user1,,617742700
@@ -203,8 +212,10 @@
 60,1459895933,mentioned,mentioned,group-c/user3,,615911919
 60,1459794334,labeled,"1. Task",group-c/user3,,614045068
 60,1459794334,assigned,group-c/user2,group-c/user2,,614045065
+61,1461092247,closed,closed,group-c/user1,,633424288
 61,1460036854,subscribed,subscribed,group-c/user1,,618513162
 61,1460036854,mentioned,mentioned,group-c/user1,,618513161
 61,1459995709,subscribed,subscribed,group-c/user2,,617736276
 61,1459995709,mentioned,mentioned,group-c/user2,,617736275
 61,1459995590,assigned,group-c/user2,group-c/user2,,617735059
+64,1461528071,labeled,"1. Task",group-c/user3,,639173566
