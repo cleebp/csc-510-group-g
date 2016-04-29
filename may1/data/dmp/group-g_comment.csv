@@ -885,3 +885,117 @@ Cluster the data on time(per week), ownership(per person);
 ",212480772
 83,group-g/user3,1461512262,1461512262,"Hi Arjun, can you take a look at the proposed features and criteria for bad smells in the draft? Is it possible for you to get all the data mentioned in the draft? If no, try to find some other stats to replace those in the draft. Feel free to make some changes to the draft.",213986503
 83,group-g/user2,1461544481,1461544481,"Is there any specific data that's missing? I think we have everything for the things listed already, but I could be mistaken. I guess one thing I can add is the number of lines added/deleted in a commit.",214075853
+85,group-g/user2,1461557516,1461557516,"I've added information regarding number of additions, deletions and changes (additions - deletions) and the data should be available in their respective folders. Let me know if there's anything else you need.",214120777
+83,group-g/user4,1461597740,1461597740,"assignment data of group-g.csv is not relevant. I guess it is the data of bug ratio file. Should I use the old data? I have old data saved in my PC.",214390693
+83,group-g/user2,1461598836,1461598836,"Should be fixed now. I forgot to add the new CSV files to the push.",214402140
+84,group-g/user4,1461599855,1461599855,"I have added some graphs under rstuff folder. Please have a look. Will generate rest of the graphs soon.",214415781
+86,group-g/user2,1461729091,1461729091,"Your lab is probably a better idea. I bet there are working markers too! 😛 ",214963322
+86,group-g/user3,1461731518,1461731518,"Hi, I just realised that one of my exam begins at 1pm instead of the normal
+4:30. I'm afraid that I can't make it at 2pm. I'll let you know if I finish
+it early.
+On Apr 26, 2016 11:51 PM, ""Arjun Madan"" <notifications@github.com> wrote:
+
+> Your lab is probably a better idea. I bet there are working markers too!
+> 😛
+>
+> —
+> You are receiving this because you are subscribed to this thread.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/86#issuecomment-214963322>
+>
+",214967306
+86,group-g/user1,1461771942,1461771942,"Okay so lets plan on my lab KDL (2nd floor of eb 2 by the elevators).
+
+We could also push the meeting back so that Ran can make it, Im free all day :-)",215126182
+86,group-g/user2,1461772314,1461772314,"I'm free all day as well, so I don't mind pushing the meeting back.",215128136
+86,group-g/user4,1461775299,1461775299,"Hi, I have my graph theory final tomorrow 8-11 am. It's a tough course, I won't be able to attend today's meeting. I'll look at updates of meeting on github.
+
+  ",215142895
+86,group-g/user2,1461776559,1461776559,"Okay, so I guess delaying the meeting so that Ran is there as well makes sense then. We could push it to tomorrow, but I'll be at work till around 4:30, so we might have to meet after that.",215149096
+86,group-g/user1,1461778423,1461778423,"Lets definitely meet today at like 3:30 then and Ran can show up when he is done. 
+
+We can see how much progress we make and probably meet tomorrow night if needed.
+
+Good luck on your graph theory final!",215162959
+86,group-g/user3,1461780922,1461780922,"Hi, I just got it done. Will be there in 10 minutes
+On Apr 27, 2016 11:51 AM, ""Arjun Madan"" <notifications@github.com> wrote:
+
+> I'm free all day as well, so I don't mind pushing the meeting back.
+>
+> —
+> You are receiving this because you commented.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/86#issuecomment-215128136>
+>
+",215178860
+86,group-g/user1,1461784601,1461784601,"Alright meeting is starting so I'ma write notes here:
+
+Effat if you could also upload your R scripts to the rstuff folder that would be really helpful, you can just add a folder called ""scripts"" inside rstuff where you drop your code. For example we don't understand your boxplot or what it means?
+
+For features we have organized them into four categories each with their own features.
+
+For our graphs we will create as many as we can for each feature; however, in our report we will only display 4 graphs at a time that have been trimmed to format nicely in the report. When we can include outliers in these display graphs that way we can discuss them. I'm pretty sure we can get R to do this or we can manually trim them and make graphics ourselves.
+
+",215198212
+86,group-g/user1,1461785427,1461785427,"Also we need 4 barplots for major data summarization comparing data points across groups:
+- Barplot of total number of commits per group 
+- Barplot of total number of issues per group
+- Barplot of total number of comments per group
+- Barplot of total number of milestones per group 
+ ",215202597
+86,group-g/user1,1461785606,1461785606,"Also we should anonymizing the group names when we create our graphs as such:
+- Group B -> group1
+- Group C -> group2
+- Group F -> group3
+- Group G -> group4
+- Group I -> group5
+- Group M -> group6
+",215203379
+87,group-g/user2,1461787927,1461787927,"Test successful. Closing issue.",215213468
+86,group-g/user1,1461790262,1461791081,"Here are the features we need graphs for (in addition to those 4 barplots mentioned above, and recreation of the current ones with group numbers instead of letters), also note these are all one chart per group:
+
+1. Line chart, issues closed per week (data/dmp/group-x_event.csv, filter the action column by ""closed"")
+2. Line chart, number of commits per week  (data/dmp/group-x_commits.csv. the 2nd column is a timestamp that R should be able to make sense of)
+3. Histogram, Comments (participants) per issue  (data/csv/issue_comment, we care about total number of issues with 1 participant, 2 participants, 3, etc.)
+4. Pie chart, comments per user (this is already done, we just need to change group x to group 1, etc.)
+5. Boxplot of true number of comments per issue (data/csv/issue_numcomments)
+6. Per issue assigneed (we have this, we just need to change group letters to numbers)
+7. Pie chart of changes per user (data/csv/changes_made)
+8. Pie chart of issue creations per user (data/csv/issue_create)
+9. Pie chart, Bugratio per group (data/csv/bugratio)
+10. Histogram (maybe a boxplot?), total changes per commit (data/csv/changes_per_commit)
+",215225116
+86,group-g/user1,1461791289,1461791332,"It would be helpful Effat if you could get these graphs generated as soon as possible (by tomorrow night?), also having just the graphs as .jpegs is fine, in the documents though could you include other information related to that featuere? Things such as means, standard deviations, etc. would be helpful when we are discussing the related graphs in the report.",215229761
+86,group-g/user4,1461794312,1461794312,"I'll upload the graphs by tomorrow :)",215242683
+86,group-g/user4,1461879189,1461879226,"I have uploaded some graphs. But I have some confusions:
+- No of milestone files for group b is needed.
+
+-issue_create : group b and g has 5 users. Should I generate graph with 5 users?
+
+-change_made -- group i has 5 users.
+
+- No 3-- Histogram or boxplot is appropriate for comment per issue? Because some groups have 50~60 issues where users have commented, but the number of users is really low 1~4. I think boxplot is good for it-where we can visualize a range of users commenting on per issue.
+
+
+  ",215569552
+86,group-g/user3,1461884922,1461884922,"you can make a bar chart instead if you don't like histogram. Box plot is
+not very good here.
+On Apr 28, 2016 5:33 PM, ""effat"" <notifications@github.com> wrote:
+
+> I have uploaded some graphs. But I have some confusions:
+>
+>    - No of milestone files for group b is needed. -issue_create : group b
+>    and g has 5 users. Should I generate graph with 5 users? -change_made --
+>    group i has 5 users.
+>    - No 3-- Histogram or boxplot is appropriate for comment per issue?
+>    Because some groups have 50~60 issues where users have commented, but the
+>    number of users is really low 1~4. I think boxplot is good for it-where we
+>    can visualize a range of users commenting on per issue.
+>
+> —
+> You are receiving this because you commented.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/86#issuecomment-215569552>
+>
+",215588842
+86,group-g/user4,1461890919,1461890919,"OK :) I have made bar charts. Please have a look. Do you have any suggestions for labels of X axis and Y axis?",215603438
