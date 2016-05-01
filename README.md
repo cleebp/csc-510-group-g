@@ -25,7 +25,7 @@ Here are some quick links to navigate through our repo:
 - [Presentation Slides](https://github.com/cleebp/csc-510-group-g/blob/master/apr1/presentation/presentation.pdf)
 - [Final Report](https://github.com/cleebp/csc-510-group-g/blob/master/apr1/report/report.pdf)
 
-May1 Deliverable
+[May1 Deliverable: Reflections](https://github.com/cleebp/csc-510-group-g/tree/master/may1)
 - [Data](https://github.com/cleebp/csc-510-group-g/tree/master/may1/data)
 - [Graphs](https://github.com/cleebp/csc-510-group-g/blob/master/may1/rstuff)
 - [Scripts](https://github.com/cleebp/csc-510-group-g/blob/master/may1/scripts)
